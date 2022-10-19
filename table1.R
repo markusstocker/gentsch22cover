@@ -9,8 +9,8 @@ s(library(dplyr))
 s(library(lme4))
 s(library(orkg))
 
-orkg <- ORKG(host="https://orkg.org/")
-orkg$templates$materialize_template(template_id = "R222407")
+orkg <- ORKG(host="https://sandbox.orkg.org/")
+orkg$templates$materialize_template(template_id = "R200727")
 tp = orkg$templates$list_templates()
 
 df.20 <- read.csv("CATCHY_aggregate_stability_2020_block2.csv", check.names=FALSE)
@@ -33,8 +33,8 @@ lm.mwd.1 <- lmer(MWD_cor ~ cc_variant + (1|depth), data = df.MWD)
 lm.mwd.2 <- lmer(MWD_cor ~ cc_type + (1|depth), data = df.MWD)
 
 # Output data for the two LMM
-df1 <- data.frame(summary(lm.mwd.1)$coefficients)
-df2 <- data.frame(summary(lm.mwd.2)$coefficients)
+df1 <- data.frame(summary(lm.mwd.1)$coefficients, check.names=FALSE)
+df2 <- data.frame(summary(lm.mwd.2)$coefficients, check.names=FALSE)
 
 instance <- tp$model_fitting(
   label='Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable', 
