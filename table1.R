@@ -37,35 +37,35 @@ df1 <- data.frame(summary(lm.mwd.1)$coefficients, check.names=FALSE)
 df2 <- data.frame(summary(lm.mwd.2)$coefficients, check.names=FALSE)
 
 instance <- tp$model_fitting(
-  label='Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable', 
-  has_input_dataset=tuple(df.MWD, 'TODO'),
+  label="Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable", 
+  has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
   has_input_model=tp$statistical_model(
-    label='a linear mixed model',
+    label="a linear mixed model",
     is_denoted_by=tp$formula(
-      label='the formula of the linear mixed model: MWD_cor ~ cc_variant + (1|depth)',
+      label="the formula of the linear mixed model: MWD_cor ~ cc_variant + (1|depth)",
       has_value_specification=tp$value_specification(
-        label='the value specification of the formula: MWD_cor ~ cc_variant + (1|depth)',
-        has_specified_value='MWD_cor ~ cc_variant + (1|depth)'
+        label="the value specification of the formula: MWD_cor ~ cc_variant + (1|depth)",
+        has_specified_value="MWD_cor ~ cc_variant + (1|depth)"
       )
     )
   ),
-  has_output_dataset=tuple(df1, 'TODO')
+  has_output_dataset=tuple(df1, "TODO")
 )
-instance$serialize_to_file('article.contribution.1.json', format='json-ld')
+instance$serialize_to_file("article.contribution.1.json", format="json-ld")
 
 instance <- tp$model_fitting(
-  label='Linear mixed model fitting with MWD as response, CC type as predictor variable, and soil depth as random variable', 
-  has_input_dataset=tuple(df.MWD, 'TODO'),
+  label="Linear mixed model fitting with MWD as response, CC type as predictor variable, and soil depth as random variable", 
+  has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
   has_input_model=tp$statistical_model(
-    label='a linear mixed model',
+    label="a linear mixed model",
     is_denoted_by=tp$formula(
-      label='the formula of the linear mixed model: MWD_cor ~ cc_type + (1|depth)',
+      label="the formula of the linear mixed model: MWD_cor ~ cc_type + (1|depth)",
       has_value_specification=tp$value_specification(
-        label='the value specification of the formula: MWD_cor ~ cc_type + (1|depth)',
-        has_specified_value='MWD_cor ~ cc_type + (1|depth)'
+        label="the value specification of the formula: MWD_cor ~ cc_type + (1|depth)",
+        has_specified_value="MWD_cor ~ cc_type + (1|depth)"
       )
     )
   ),
-  has_output_dataset=tuple(df2, 'TODO')
+  has_output_dataset=tuple(df2, "TODO")
 )
-instance$serialize_to_file('article.contribution.2.json', format='json-ld')
+instance$serialize_to_file("article.contribution.2.json", format="json-ld")
