@@ -40,11 +40,11 @@ instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable", 
   has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
   has_input_model=tp$statistical_model(
-    label="a linear mixed model",
+    label="A linear mixed model with formula MWD_cor ~ cc_variant + (1|depth)",
     is_denoted_by=tp$formula(
-      label="the formula of the linear mixed model: MWD_cor ~ cc_variant + (1|depth)",
+      label="The formula of the linear mixed model: MWD_cor ~ cc_variant + (1|depth)",
       has_value_specification=tp$value_specification(
-        label="the value specification of the formula: MWD_cor ~ cc_variant + (1|depth)",
+        label="The value specification of the formula: MWD_cor ~ cc_variant + (1|depth)",
         has_specified_value="MWD_cor ~ cc_variant + (1|depth)"
       )
     )
@@ -57,11 +57,11 @@ instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC type as predictor variable, and soil depth as random variable", 
   has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
   has_input_model=tp$statistical_model(
-    label="a linear mixed model",
+    label="A linear mixed model with formula MWD_cor ~ cc_type + (1|depth)",
     is_denoted_by=tp$formula(
-      label="the formula of the linear mixed model: MWD_cor ~ cc_type + (1|depth)",
+      label="The formula of the linear mixed model: MWD_cor ~ cc_type + (1|depth)",
       has_value_specification=tp$value_specification(
-        label="the value specification of the formula: MWD_cor ~ cc_type + (1|depth)",
+        label="The value specification of the formula: MWD_cor ~ cc_type + (1|depth)",
         has_specified_value="MWD_cor ~ cc_type + (1|depth)"
       )
     )
