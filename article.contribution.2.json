@@ -42,12 +42,12 @@
       "@id": "_:n5",
       "label": "TODO",
       "@type": [
-        "https://orkg.org/class/Table"
+        "https://sandbox.orkg.org/class/Table"
       ],
       "columns": [
         {
           "@type": [
-            "https://orkg.org/class/Column"
+            "https://sandbox.orkg.org/class/Column"
           ],
           "label": "Estimate",
           "name": "Estimate",
@@ -55,7 +55,7 @@
         },
         {
           "@type": [
-            "https://orkg.org/class/Column"
+            "https://sandbox.orkg.org/class/Column"
           ],
           "label": "Std. Error",
           "name": "Std. Error",
@@ -63,7 +63,7 @@
         },
         {
           "@type": [
-            "https://orkg.org/class/Column"
+            "https://sandbox.orkg.org/class/Column"
           ],
           "label": "t value",
           "name": "t value",
@@ -73,7 +73,7 @@
       "rows": [
         {
           "@type": [
-            "https://orkg.org/class/Row"
+            "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "(Intercept)",
           "label": "(Intercept)",
@@ -81,19 +81,19 @@
           "cells": [
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "2.648828"
             },
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1817929"
             },
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "14.57058"
             }
@@ -101,7 +101,7 @@
         },
         {
           "@type": [
-            "https://orkg.org/class/Row"
+            "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "cc_typeMix",
           "label": "cc_typeMix",
@@ -109,19 +109,19 @@
           "cells": [
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.4291174"
             },
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1335053"
             },
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "3.214235"
             }
@@ -129,7 +129,7 @@
         },
         {
           "@type": [
-            "https://orkg.org/class/Row"
+            "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "cc_typeSingle",
           "label": "cc_typeSingle",
@@ -137,19 +137,19 @@
           "cells": [
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.3170782"
             },
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1218731"
             },
             {
               "@type": [
-                "https://orkg.org/class/Cell"
+                "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "2.601708"
             }
@@ -166,12 +166,12 @@
     "P56053": "https://sandbox.orkg.org/property/P56053",
     "P56054": "https://sandbox.orkg.org/property/P56054",
     "P56055": "https://sandbox.orkg.org/property/P56055",
-    "columns": "https://orkg.org/property/CSVW_Columns",
-    "name": "https://orkg.org/property/CSVW_Name",
-    "number": "https://orkg.org/property/CSVW_Number",
-    "rows": "https://orkg.org/property/CSVW_Rows",
-    "cells": "https://orkg.org/property/CSVW_Cells",
-    "value": "https://orkg.org/property/CSVW_Value",
-    "titles": "https://orkg.org/property/CSVW_Titles"
+    "columns": "https://sandbox.orkg.org/property/CSVW_Columns",
+    "name": "https://sandbox.orkg.org/property/CSVW_Name",
+    "number": "https://sandbox.orkg.org/property/CSVW_Number",
+    "rows": "https://sandbox.orkg.org/property/CSVW_Rows",
+    "cells": "https://sandbox.orkg.org/property/CSVW_Cells",
+    "value": "https://sandbox.orkg.org/property/CSVW_Value",
+    "titles": "https://sandbox.orkg.org/property/CSVW_Titles"
   }
 }
