@@ -139,7 +139,7 @@
           "@type": [
             "https://orkg.org/class/C40023"
           ],
-          "OBI:OBI_0001938": [
+          "P4009": [
             {
               "@id": "_:n5",
               "label": "The value specification of the formula: MWD_cor ~ cc_type + (1|depth)",
@@ -160,6 +160,7 @@
   ],
   "@context": {
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "P4009": "https://orkg.org/property/P4009",
     "P71162": "https://orkg.org/property/P71162",
     "P71163": "https://orkg.org/property/P71163",
     "P71164": "https://orkg.org/property/P71164",
