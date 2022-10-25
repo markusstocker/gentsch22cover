@@ -43,31 +43,38 @@
       "label": "TODO",
       "@type": [
         "https://sandbox.orkg.org/class/Table"
+      ]
+    },
+    {
+      "@id": "_:n9",
+      "label": "TODO",
+      "@type": [
+        "https://sandbox.orkg.org/class/Table"
       ],
       "columns": [
         {
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "label": "Estimate",
           "name": "Estimate",
-          "number": 1
+          "number": 1,
+          "@id": "_:n6"
         },
         {
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "label": "Std. Error",
           "name": "Std. Error",
-          "number": 2
+          "number": 2,
+          "@id": "_:n7"
         },
         {
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "label": "t value",
           "name": "t value",
-          "number": 3
+          "number": 3,
+          "@id": "_:n8"
         }
       ],
       "rows": [
@@ -83,19 +90,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "2.648828"
+              "value": "2.648828",
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.1831154"
+              "value": "0.1831154",
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "14.46535"
+              "value": "14.46535",
+              "column": "_:n8"
             }
           ]
         },
@@ -111,19 +121,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.3264725"
+              "value": "0.3264725",
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.1577686"
+              "value": "0.1577686",
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "2.069312"
+              "value": "2.069312",
+              "column": "_:n8"
             }
           ]
         },
@@ -139,19 +152,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.343437"
+              "value": "0.343437",
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.1577686"
+              "value": "0.1577686",
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "2.17684"
+              "value": "2.17684",
+              "column": "_:n8"
             }
           ]
         },
@@ -167,19 +183,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.2752331"
+              "value": "0.2752331",
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.1577686"
+              "value": "0.1577686",
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "1.744536"
+              "value": "1.744536",
+              "column": "_:n8"
             }
           ]
         },
@@ -195,19 +214,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.3231701"
+              "value": "0.3231701",
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.1577686"
+              "value": "0.1577686",
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "2.04838"
+              "value": "2.04838",
+              "column": "_:n8"
             }
           ]
         },
@@ -223,19 +245,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.3438099"
+              "value": "0.3438099",
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.1577686"
+              "value": "0.1577686",
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "2.179203"
+              "value": "2.179203",
+              "column": "_:n8"
             }
           ]
         },
@@ -251,19 +276,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.5144248"
+              "value": "0.5144248",
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "0.1577686"
+              "value": "0.1577686",
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "3.260628"
+              "value": "3.260628",
+              "column": "_:n8"
             }
           ]
         }
