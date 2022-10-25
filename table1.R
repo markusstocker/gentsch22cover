@@ -9,8 +9,8 @@ s(library(dplyr))
 s(library(lme4))
 s(library(orkg))
 
-orkg <- ORKG(host="https://orkg.org/")
-orkg$templates$materialize_template(template_id = "R222407")
+orkg <- ORKG(host="https://sandbox.orkg.org/")
+orkg$templates$materialize_template(template_id = "R200727")
 tp = orkg$templates$list_templates()
 
 df.20 <- read.csv("CATCHY_aggregate_stability_2020_block2.csv", check.names=FALSE)
