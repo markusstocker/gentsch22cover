@@ -10,21 +10,21 @@
   "P56053": [
     {
       "@id": "_:n2",
-      "label": "A linear mixed model with formula MWD_cor ~ cc_type + (1|depth)",
+      "label": "A linear mixed model with MWD as response and CC type as predictor variable",
       "@type": [
         "https://sandbox.orkg.org/class/C31017"
       ],
       "P56055": [
         {
           "@id": "_:n3",
-          "label": "The formula of the linear mixed model: MWD_cor ~ cc_type + (1|depth)",
+          "label": "The formula of the linear mixed model with MWD as response and CC type as predictor variable",
           "@type": [
             "https://sandbox.orkg.org/class/C31018"
           ],
           "P4009": [
             {
               "@id": "_:n4",
-              "label": "The value specification of the formula: MWD_cor ~ cc_type + (1|depth)",
+              "label": "MWD_cor ~ cc_type + (1|depth)",
               "@type": [
                 "https://sandbox.orkg.org/class/C31019"
               ],
@@ -40,14 +40,7 @@
   "P56054": [
     {
       "@id": "_:n5",
-      "label": "TODO",
-      "@type": [
-        "https://sandbox.orkg.org/class/Table"
-      ]
-    },
-    {
-      "@id": "_:n9",
-      "label": "TODO",
+      "label": "Results of LMM with MWD as response and CC type as predictor variable",
       "@type": [
         "https://sandbox.orkg.org/class/Table"
       ],

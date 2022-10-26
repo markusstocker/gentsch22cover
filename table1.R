@@ -40,16 +40,16 @@ instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable", 
   has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
   has_input_model=tp$statistical_model(
-    label="A linear mixed model with formula MWD_cor ~ cc_variant + (1|depth)",
+    label="A linear mixed model with MWD as response and CC variant as predictor variable",
     is_denoted_by=tp$formula(
-      label="The formula of the linear mixed model: MWD_cor ~ cc_variant + (1|depth)",
+      label="The formula of the linear mixed model with MWD as response and CC variant as predictor variable",
       has_value_specification=tp$value_specification(
-        label="The value specification of the formula: MWD_cor ~ cc_variant + (1|depth)",
+        label="MWD_cor ~ cc_variant + (1|depth)",
         has_specified_value="MWD_cor ~ cc_variant + (1|depth)"
       )
     )
   ),
-  has_output_dataset=tuple(df1, "TODO")
+  has_output_dataset=tuple(df1, "Results of LMM with MWD as response and CC variant as predictor variable")
 )
 instance$serialize_to_file("article.contribution.1.json", format="json-ld")
 
@@ -57,15 +57,15 @@ instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC type as predictor variable, and soil depth as random variable", 
   has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
   has_input_model=tp$statistical_model(
-    label="A linear mixed model with formula MWD_cor ~ cc_type + (1|depth)",
+    label="A linear mixed model with MWD as response and CC type as predictor variable",
     is_denoted_by=tp$formula(
-      label="The formula of the linear mixed model: MWD_cor ~ cc_type + (1|depth)",
+      label="The formula of the linear mixed model with MWD as response and CC type as predictor variable",
       has_value_specification=tp$value_specification(
-        label="The value specification of the formula: MWD_cor ~ cc_type + (1|depth)",
+        label="MWD_cor ~ cc_type + (1|depth)",
         has_specified_value="MWD_cor ~ cc_type + (1|depth)"
       )
     )
   ),
-  has_output_dataset=tuple(df2, "TODO")
+  has_output_dataset=tuple(df2, "Results of LMM with MWD as response and CC type as predictor variable")
 )
 instance$serialize_to_file("article.contribution.2.json", format="json-ld")
