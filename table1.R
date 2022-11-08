@@ -38,8 +38,8 @@ df2 <- data.frame(summary(lm.mwd.2)$coefficients, check.names=FALSE)
 
 instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable", 
-  #has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
-  has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
+  has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
+  #has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
   has_input_model=tp$statistical_model(
     label="A linear mixed model with MWD as response and CC variant as predictor variable",
     is_denoted_by=tp$formula(
@@ -56,8 +56,8 @@ instance$serialize_to_file("article.contribution.1.json", format="json-ld")
 
 instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC type as predictor variable, and soil depth as random variable", 
-  #has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
-  has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
+  has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
+  #has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
   has_input_model=tp$statistical_model(
     label="A linear mixed model with MWD as response and CC type as predictor variable",
     is_denoted_by=tp$formula(
