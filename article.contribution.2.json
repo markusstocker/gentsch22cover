@@ -32,9 +32,25 @@
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "name": "t value",
+          "name": "df",
           "number": 3,
           "@id": "_:n5"
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Column"
+          ],
+          "name": "t value",
+          "number": 4,
+          "@id": "_:n6"
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Column"
+          ],
+          "name": "Pr(>|t|)",
+          "number": 5,
+          "@id": "_:n7"
         }
       ],
       "rows": [
@@ -64,8 +80,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "14.57058",
+              "value": "4.15033",
               "column": "_:n5"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "14.57058",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0001014307",
+              "column": "_:n7"
             }
           ]
         },
@@ -95,8 +125,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "3.214235",
+              "value": "58.0",
               "column": "_:n5"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.214235",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.002137944",
+              "column": "_:n7"
             }
           ]
         },
@@ -126,8 +170,22 @@
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
-              "value": "2.601708",
+              "value": "58.0",
               "column": "_:n5"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.601708",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.01175316",
+              "column": "_:n7"
             }
           ]
         }
@@ -136,21 +194,21 @@
   ],
   "P56053": [
     {
-      "@id": "_:n6",
+      "@id": "_:n8",
       "label": "A linear mixed model with MWD as response and CC type as predictor variable",
       "@type": [
         "https://sandbox.orkg.org/class/C31017"
       ],
       "P56055": [
         {
-          "@id": "_:n7",
+          "@id": "_:n9",
           "label": "The formula of the linear mixed model with MWD as response and CC type as predictor variable",
           "@type": [
             "https://sandbox.orkg.org/class/C31018"
           ],
           "P4009": [
             {
-              "@id": "_:n8",
+              "@id": "_:n10",
               "label": "MWD_cor ~ cc_type + (1|depth)",
               "@type": [
                 "https://sandbox.orkg.org/class/C31019"
