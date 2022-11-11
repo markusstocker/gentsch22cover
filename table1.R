@@ -37,11 +37,10 @@ lm.mwd.2 <- lmer(MWD_cor ~ cc_type + (1|depth), data = df.MWD)
 df1 <- data.frame(summary(lm.mwd.1)$coefficients, check.names=FALSE)
 df2 <- data.frame(summary(lm.mwd.2)$coefficients, check.names=FALSE)
 
-print(df1)
-
 instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable", 
-  has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
+  has_input_dataset="https://doi.org/10.5281/zenodo.7314152",
+  #has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
   #has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
   has_input_model=tp$statistical_model(
     label="A linear mixed model with MWD as response and CC variant as predictor variable",
