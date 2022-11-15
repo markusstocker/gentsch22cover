@@ -6,7 +6,6 @@
   ],
   "P56054": [
     {
-      "@id": "_:n2",
       "label": "Results of LMM with MWD as response and CC variant as predictor variable",
       "@type": [
         "https://sandbox.orkg.org/class/Table"
@@ -18,7 +17,7 @@
           ],
           "name": "Estimate",
           "number": 1,
-          "@id": "_:n3"
+          "@id": "_:n2"
         },
         {
           "@type": [
@@ -26,7 +25,7 @@
           ],
           "name": "Std. Error",
           "number": 2,
-          "@id": "_:n4"
+          "@id": "_:n3"
         },
         {
           "@type": [
@@ -34,7 +33,7 @@
           ],
           "name": "df",
           "number": 3,
-          "@id": "_:n5"
+          "@id": "_:n4"
         },
         {
           "@type": [
@@ -42,7 +41,7 @@
           ],
           "name": "t value",
           "number": 4,
-          "@id": "_:n6"
+          "@id": "_:n5"
         },
         {
           "@type": [
@@ -50,7 +49,7 @@
           ],
           "name": "Pr(>|t|)",
           "number": 5,
-          "@id": "_:n7"
+          "@id": "_:n6"
         }
       ],
       "rows": [
@@ -67,35 +66,35 @@
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "2.648828",
-              "column": "_:n3"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1831154",
-              "column": "_:n4"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "4.267258",
-              "column": "_:n5"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "14.46535",
-              "column": "_:n6"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "8.689498e-05",
-              "column": "_:n7"
+              "column": "_:n6"
             }
           ]
         },
@@ -112,35 +111,35 @@
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.3264725",
-              "column": "_:n3"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1577686",
-              "column": "_:n4"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "54.0",
-              "column": "_:n5"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "2.069312",
-              "column": "_:n6"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.04331638",
-              "column": "_:n7"
+              "column": "_:n6"
             }
           ]
         },
@@ -157,35 +156,35 @@
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.343437",
-              "column": "_:n3"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1577686",
-              "column": "_:n4"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "54.0",
-              "column": "_:n5"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "2.17684",
-              "column": "_:n6"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.03388362",
-              "column": "_:n7"
+              "column": "_:n6"
             }
           ]
         },
@@ -202,35 +201,35 @@
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.2752331",
-              "column": "_:n3"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1577686",
-              "column": "_:n4"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "54.0",
-              "column": "_:n5"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "1.744536",
-              "column": "_:n6"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.08675521",
-              "column": "_:n7"
+              "column": "_:n6"
             }
           ]
         },
@@ -247,35 +246,35 @@
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.3231701",
-              "column": "_:n3"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1577686",
-              "column": "_:n4"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "54.0",
-              "column": "_:n5"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "2.04838",
-              "column": "_:n6"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.04539721",
-              "column": "_:n7"
+              "column": "_:n6"
             }
           ]
         },
@@ -292,35 +291,35 @@
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.3438099",
-              "column": "_:n3"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1577686",
-              "column": "_:n4"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "54.0",
-              "column": "_:n5"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "2.179203",
-              "column": "_:n6"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.03369833",
-              "column": "_:n7"
+              "column": "_:n6"
             }
           ]
         },
@@ -337,39 +336,40 @@
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.5144248",
-              "column": "_:n3"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.1577686",
-              "column": "_:n4"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "54.0",
-              "column": "_:n5"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "3.260628",
-              "column": "_:n6"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://sandbox.orkg.org/class/Cell"
               ],
               "value": "0.001928021",
-              "column": "_:n7"
+              "column": "_:n6"
             }
           ]
         }
-      ]
+      ],
+      "@id": "_:n7"
     }
   ],
   "P56053": [
