@@ -15,7 +15,7 @@
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "name": "Estimate",
+          "titles": "Estimate",
           "number": 1,
           "@id": "_:n2"
         },
@@ -23,7 +23,7 @@
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "name": "Std. Error",
+          "titles": "Std. Error",
           "number": 2,
           "@id": "_:n3"
         },
@@ -31,7 +31,7 @@
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "name": "df",
+          "titles": "df",
           "number": 3,
           "@id": "_:n4"
         },
@@ -39,7 +39,7 @@
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "name": "t value",
+          "titles": "t value",
           "number": 4,
           "@id": "_:n5"
         },
@@ -47,7 +47,7 @@
           "@type": [
             "https://sandbox.orkg.org/class/Column"
           ],
-          "name": "Pr(>|t|)",
+          "titles": "Pr(>|t|)",
           "number": 5,
           "@id": "_:n6"
         }
@@ -58,7 +58,6 @@
             "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "(Intercept)",
-          "label": "(Intercept)",
           "number": 1,
           "cells": [
             {
@@ -103,7 +102,6 @@
             "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "cc_variantMustard",
-          "label": "cc_variantMustard",
           "number": 2,
           "cells": [
             {
@@ -148,7 +146,6 @@
             "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "cc_variantClover",
-          "label": "cc_variantClover",
           "number": 3,
           "cells": [
             {
@@ -193,7 +190,6 @@
             "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "cc_variantOat",
-          "label": "cc_variantOat",
           "number": 4,
           "cells": [
             {
@@ -238,7 +234,6 @@
             "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "cc_variantPhacelia",
-          "label": "cc_variantPhacelia",
           "number": 5,
           "cells": [
             {
@@ -283,7 +278,6 @@
             "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "cc_variantMix4",
-          "label": "cc_variantMix4",
           "number": 6,
           "cells": [
             {
@@ -328,7 +322,6 @@
             "https://sandbox.orkg.org/class/Row"
           ],
           "titles": "cc_variantMix12",
-          "label": "cc_variantMix12",
           "number": 7,
           "cells": [
             {
@@ -393,7 +386,7 @@
               "@type": [
                 "https://sandbox.orkg.org/class/C40024"
               ],
-              "OBI:OBI_0002135": [
+              "P79000": [
                 "MWD_cor ~ cc_variant + (1|depth)"
               ]
             }
@@ -407,6 +400,7 @@
   ],
   "@context": {
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "P79000": "https://sandbox.orkg.org/property/P79000",
     "P4009": "https://sandbox.orkg.org/property/P4009",
     "P71162": "https://sandbox.orkg.org/property/P71162",
     "P71163": "https://sandbox.orkg.org/property/P71163",
