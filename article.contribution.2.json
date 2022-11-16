@@ -2,9 +2,9 @@
   "@id": "_:n1",
   "label": "Linear mixed model fitting with MWD as response, CC type as predictor variable, and soil depth as random variable",
   "@type": [
-    "https://sandbox.orkg.org/class/C31016"
+    "https://sandbox.orkg.org/class/C40021"
   ],
-  "P56054": [
+  "P71164": [
     {
       "label": "Results of LMM with MWD as response and CC type as predictor variable",
       "@type": [
@@ -192,28 +192,28 @@
       "@id": "_:n7"
     }
   ],
-  "P56053": [
+  "P71163": [
     {
       "@id": "_:n8",
       "label": "A linear mixed model with MWD as response and CC type as predictor variable",
       "@type": [
-        "https://sandbox.orkg.org/class/C31017"
+        "https://sandbox.orkg.org/class/C40022"
       ],
-      "P56055": [
+      "P71165": [
         {
           "@id": "_:n9",
           "label": "The formula of the linear mixed model with MWD as response and CC type as predictor variable",
           "@type": [
-            "https://sandbox.orkg.org/class/C31018"
+            "https://sandbox.orkg.org/class/C40023"
           ],
           "P4009": [
             {
               "@id": "_:n10",
               "label": "MWD_cor ~ cc_type + (1|depth)",
               "@type": [
-                "https://sandbox.orkg.org/class/C31019"
+                "https://sandbox.orkg.org/class/C40024"
               ],
-              "P56056": [
+              "OBI:OBI_0002135": [
                 "MWD_cor ~ cc_type + (1|depth)"
               ]
             }
@@ -222,17 +222,16 @@
       ]
     }
   ],
-  "P56052": [
+  "P71162": [
     "https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv"
   ],
   "@context": {
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
-    "P56056": "https://sandbox.orkg.org/property/P56056",
     "P4009": "https://sandbox.orkg.org/property/P4009",
-    "P56052": "https://sandbox.orkg.org/property/P56052",
-    "P56053": "https://sandbox.orkg.org/property/P56053",
-    "P56054": "https://sandbox.orkg.org/property/P56054",
-    "P56055": "https://sandbox.orkg.org/property/P56055",
+    "P71162": "https://sandbox.orkg.org/property/P71162",
+    "P71163": "https://sandbox.orkg.org/property/P71163",
+    "P71164": "https://sandbox.orkg.org/property/P71164",
+    "P71165": "https://sandbox.orkg.org/property/P71165",
     "columns": "https://sandbox.orkg.org/property/CSVW_Columns",
     "name": "https://sandbox.orkg.org/property/CSVW_Name",
     "number": "https://sandbox.orkg.org/property/CSVW_Number",

@@ -11,7 +11,7 @@ s(library(orkg))
 s(library(lmerTest)) # p values from t statistic
 
 orkg <- ORKG(host="https://sandbox.orkg.org/")
-orkg$templates$materialize_template(template_id = "R200727")
+orkg$templates$materialize_template(template_id = "R222407")
 tp = orkg$templates$list_templates()
 
 df.20 <- read.csv("CATCHY_aggregate_stability_2020_block2.csv", check.names=FALSE)
