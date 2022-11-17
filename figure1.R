@@ -95,8 +95,6 @@ df.radar.F <- df.radar %>%
 df.radar.m$Fraction <- factor(df.radar.m$Fraction, levels=c("<1","2-1","4-2","8-4","16-8"))
 levels(df.radar.m$Fraction)
 
-print(n = 90, df.radar.m)
-
 ggplot(df.radar.m, aes(x = Fraction, y = OC_ratio.fal, group = cc_variant, color= cc_variant, fill= cc_variant)) +
   geom_polygon(data = df.radar.F, aes(x = Fraction, y = OC_ratio.m), color="black" , fill = NA, size = 0.8, alpha=0.8) +
   geom_polygon(size = 0.8, alpha= 0.5) +
@@ -118,8 +116,9 @@ ggplot(df.radar.m, aes(x = Fraction, y = OC_ratio.fal, group = cc_variant, color
 ggsave("Fig.1.png", width=160, height = 110,dpi = 500, units = "mm")
 
 instance <- tp$descriptive_statistical_calculation(
-  label="Descriptive statistical calculation ", 
+  label="Descriptive statistical calculation for relative proportion of OC in different soil fractions in percentage of fallow level", 
   has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.20.csv",
-  has_output_dataset=tuple(df.radar.m, "Results of LMM with MWD as response and CC variant as predictor variable"),
-  has_output_figure="https://github.com/markusstocker/gentsch22cover/blob/main/Fig.1.png"
+  has_output_dataset=tuple(as.data.frame(df.radar.m), "Relative proportion of OC in different soil fractions in percentage of fallow level"),
+  has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/f9f2d26bd41375bf5c5a3fd27aaf3ed09f1277ae/Fig.1.png"
 )
+instance$serialize_to_file("article.contribution.3.json", format="json-ld")
