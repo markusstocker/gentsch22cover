@@ -119,6 +119,7 @@ instance <- tp$descriptive_statistical_calculation(
   label="Descriptive statistical calculation for relative proportion of OC in different soil fractions in percentage of fallow level", 
   has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.20.csv",
   has_output_dataset=tuple(as.data.frame(df.radar.m), "Relative proportion of OC in different soil fractions in percentage of fallow level"),
-  has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/f9f2d26bd41375bf5c5a3fd27aaf3ed09f1277ae/Fig.1.png"
+  has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/f9f2d26bd41375bf5c5a3fd27aaf3ed09f1277ae/Fig.1.png",
+  has_output_statement="The variability of OC distribution within aggregates was quite large between and within CC treatments."
 )
 instance$serialize_to_file("article.contribution.3.json", format="json-ld")

@@ -4,8 +4,11 @@
   "@type": [
     "https://sandbox.orkg.org/class/C43000"
   ],
-  "P71162": [
-    "https://github.com/markusstocker/gentsch22cover/blob/main/df.20.csv"
+  "P79002": [
+    "The variability of OC distribution within aggregates was quite large between and within CC treatments."
+  ],
+  "P79001": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/f9f2d26bd41375bf5c5a3fd27aaf3ed09f1277ae/Fig.1.png"
   ],
   "P71164": [
     {
@@ -5934,12 +5937,13 @@
       "@id": "_:n10"
     }
   ],
-  "P79001": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/f9f2d26bd41375bf5c5a3fd27aaf3ed09f1277ae/Fig.1.png"
+  "P71162": [
+    "https://github.com/markusstocker/gentsch22cover/blob/main/df.20.csv"
   ],
   "@context": {
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
     "P79001": "https://sandbox.orkg.org/property/P79001",
+    "P79002": "https://sandbox.orkg.org/property/P79002",
     "P71162": "https://sandbox.orkg.org/property/P71162",
     "P71164": "https://sandbox.orkg.org/property/P71164",
     "columns": "https://sandbox.orkg.org/property/CSVW_Columns",
