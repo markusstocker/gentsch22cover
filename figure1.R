@@ -1,9 +1,7 @@
-# Lines 534
-
 s <- suppressPackageStartupMessages
 
-library(orkg)
-library(tidyverse)
+s(library(orkg))
+s(library(tidyverse))
 
 orkg <- ORKG(host="https://sandbox.orkg.org/")
 orkg$templates$materialize_template(template_id = "R253086")
