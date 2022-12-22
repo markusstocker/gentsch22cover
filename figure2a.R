@@ -11,6 +11,10 @@ s(library(multcomp))
 s(library(multcompView))
 s(library(ggpubr))
 
+orkg <- ORKG(host="https://sandbox.orkg.org/")
+orkg$templates$materialize_template(template_id = "R261006")
+tp = orkg$templates$list_templates()
+
 pairwiseLetters <- function (x) {
   df <- data.frame(x$byout)$p.value
   names(df) <- row.names(data.frame(x$byout))
@@ -58,39 +62,32 @@ df.20$cc_type <- as.factor(ifelse(df.20$cc_variant == "Fallow", "Fallow", df.20$
 
 df.MWD <- subset(df.20, Fraction=="bulk")
 
-levels(df.MWD$cc_type)
-
-# the data represent approximately normally distribution
-ggplot(df.MWD, aes(x=MWD_cor))+
-  geom_histogram(aes(y =..density..))+
-  geom_density(col=2)
-
 # pairwise comparison of CC_variants
 pw.MWD <- function(x) {
+  # Computes t-tests
   pairwiseTest(MWD_cor ~ cc_variant, data = x)
 }
+
+# has_specified_input
+df.MWD <- df.MWD[,c("depth","cc_variant","MWD_cor")] 
 
 pw.list.MWD <- dlply(df.MWD, .(depth), pw.MWD)
 
 # apply function on list and produce data frame for plotting
+# Small letters denoting significant difference between CC treatments by pairwise comparison 
 (df.pw.MWD <- ldply(pw.list.MWD, .fun=pairwiseLetters))
 
-# comparison of plot B with a mixed model
-lm.mwd <- lmer(MWD_cor ~ cc_type + (1|depth), df.MWD)
-
-df.pw.MWD.tot <- cld(emmeans(lm.mwd, list(pairwise ~ cc_type)), Letters=letters, sort=FALSE)
-df.pw.MWD.tot
-
-# plot results
-df.MWD$depth2 <- gsub(" cm", "", df.MWD$depth)
-
-print(df.MWD)
+# has_specified_output
+(df.pw.MWD.pvalues <- ldply(pw.list.MWD, .fun=function (x) {
+  data.frame(p.value = x$byout[[1]]["p.value"],
+             compnames = x$byout[[1]]["compnames"])
+}))
 
 (p1 <- ggplot(df.MWD, aes(x=cc_variant, y=MWD_cor, fill=cc_variant))+
     geom_jitter(shape=21, size=3.5, width = 0.2, alpha=0.3)+
     geom_text(data = df.pw.MWD, aes(x=cc_variant, y=2, label=.group), size=4, vjust = 0.2 )+
-    #stat_summary(fun.data = "mean_se", geom = "errorbar",width = 0.1, color="black")+
-    #stat_summary(fun.data = "mean_se",  geom = "point", size=4, shape=21)+
+    stat_summary(fun.data = "mean_se", geom = "errorbar",width = 0.1, color="black")+
+    stat_summary(fun.data = "mean_se",  geom = "point", size=4, shape=21)+
     facet_grid (depth~.,scales = "free")+
     scale_fill_manual(values = COL, guide="none")+
     labs(x="", y="MWD (mm)")+
@@ -99,3 +96,11 @@ print(df.MWD)
 )
 
 ggsave("Fig.2a.png", plot = p1, width = 160, height = 100, units = "mm")
+
+instance <- tp$pairwise_test(
+  label="Pairwise t-test with MWD response and CC variant predictor", 
+  has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
+  has_output_dataset=tuple(df.pw.MWD.pvalues, "Pairwise t-test p-values for CC variants at three soil depths"),
+  has_output_figure="",
+)
+instance$serialize_to_file("article.contribution.4.json", format="json-ld")
