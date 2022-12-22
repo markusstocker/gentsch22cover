@@ -1,0 +1,3915 @@
+{
+  "@id": "_:n1",
+  "label": "Pairwise t-test with MWD response and CC variant predictor",
+  "@type": [
+    "https://sandbox.orkg.org/class/C45001"
+  ],
+  "P71164": [
+    {
+      "label": "Pairwise t-test p-values for CC variants at three soil depths",
+      "@type": [
+        "https://sandbox.orkg.org/class/Table"
+      ],
+      "columns": [
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Column"
+          ],
+          "titles": "depth",
+          "number": 1,
+          "@id": "_:n2"
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Column"
+          ],
+          "titles": "p.value",
+          "number": 2,
+          "@id": "_:n3"
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Column"
+          ],
+          "titles": "compnames",
+          "number": 3,
+          "@id": "_:n4"
+        }
+      ],
+      "rows": [
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 1",
+          "number": 1,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.8797",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 2",
+          "number": 2,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0173",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 3",
+          "number": 3,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.7949",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 4",
+          "number": 4,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.7769",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 5",
+          "number": 5,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.4554",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 6",
+          "number": 6,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.1238",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 7",
+          "number": 7,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0268",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 8",
+          "number": 8,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.9607",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 9",
+          "number": 9,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.8378",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 10",
+          "number": 10,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.5228",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 11",
+          "number": 11,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.1398",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 12",
+          "number": 12,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0054",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 13",
+          "number": 13,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.2294",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 14",
+          "number": 14,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.1718",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 15",
+          "number": 15,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.7002",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 16",
+          "number": 16,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.8463",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 17",
+          "number": 17,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.5066",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 18",
+          "number": 18,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.1531",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 19",
+          "number": 19,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.8037",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Phacelia",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 20",
+          "number": 20,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.3341",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Phacelia",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 21",
+          "number": 21,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.3482",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Mix4",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 22",
+          "number": 22,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0981",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 23",
+          "number": 23,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.1924",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 24",
+          "number": 24,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.1551",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 25",
+          "number": 25,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.3237",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 26",
+          "number": 26,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.1879",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 27",
+          "number": 27,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0491",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 28",
+          "number": 28,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.3561",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 29",
+          "number": 29,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.5278",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 30",
+          "number": 30,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.2875",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 31",
+          "number": 31,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.3638",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 32",
+          "number": 32,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.7972",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 33",
+          "number": 33,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.6996",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 34",
+          "number": 34,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.6783",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 35",
+          "number": 35,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.9968",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 36",
+          "number": 36,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0638",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 37",
+          "number": 37,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.5454",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 38",
+          "number": 38,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.7266",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 39",
+          "number": 39,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.2547",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 40",
+          "number": 40,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.707",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Phacelia",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 41",
+          "number": 41,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.119",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Phacelia",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 42",
+          "number": 42,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0797",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Mix4",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 43",
+          "number": 43,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.6859",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 44",
+          "number": 44,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.8713",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 45",
+          "number": 45,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.4482",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 46",
+          "number": 46,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0169",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 47",
+          "number": 47,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.0369",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 48",
+          "number": 48,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.6091",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Fallow",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 49",
+          "number": 49,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.9258",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 50",
+          "number": 50,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.7346",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 51",
+          "number": 51,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.1542",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 52",
+          "number": 52,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.2783",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 53",
+          "number": 53,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.8026",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Mustard",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 54",
+          "number": 54,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.7278",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 55",
+          "number": 55,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.2771",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 56",
+          "number": 56,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.4048",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 57",
+          "number": 57,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.7715",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Clover",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 58",
+          "number": 58,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.2736",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 59",
+          "number": 59,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.4835",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 60",
+          "number": 60,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.9974",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Oat",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 61",
+          "number": 61,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.4089",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4-Phacelia",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 62",
+          "number": 62,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.4394",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Phacelia",
+              "column": "_:n4"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 63",
+          "number": 63,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n2"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0.6297",
+              "column": "_:n3"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12-Mix4",
+              "column": "_:n4"
+            }
+          ]
+        }
+      ],
+      "@id": "_:n5"
+    }
+  ],
+  "P79001": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2a.png"
+  ],
+  "P71162": [
+    {
+      "label": "Difference of mean weight diameter between the dry and wet sieving method",
+      "@type": [
+        "https://sandbox.orkg.org/class/Table"
+      ],
+      "columns": [
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Column"
+          ],
+          "titles": "depth",
+          "number": 1,
+          "@id": "_:n6"
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Column"
+          ],
+          "titles": "cc_variant",
+          "number": 2,
+          "@id": "_:n7"
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Column"
+          ],
+          "titles": "MWD_cor",
+          "number": 3,
+          "@id": "_:n8"
+        }
+      ],
+      "rows": [
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 1",
+          "number": 1,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.4118",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 2",
+          "number": 2,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.9785",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 3",
+          "number": 3,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.6991",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 4",
+          "number": 4,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.5953",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 5",
+          "number": 5,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.0213",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 6",
+          "number": 6,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.0414",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 7",
+          "number": 7,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.8356",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 8",
+          "number": 8,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.8241",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 9",
+          "number": 9,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.2952",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 10",
+          "number": 10,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.8983",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 11",
+          "number": 11,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.586",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 12",
+          "number": 12,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.4778",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 13",
+          "number": 13,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.112",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 14",
+          "number": 14,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.3742",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 15",
+          "number": 15,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.5449",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 16",
+          "number": 16,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.8681",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 17",
+          "number": 17,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.0931",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 18",
+          "number": 18,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.1554",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 19",
+          "number": 19,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.5116",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 20",
+          "number": 20,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.7159",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 21",
+          "number": 21,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.6965",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 22",
+          "number": 22,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.4752",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 23",
+          "number": 23,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.3478",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 24",
+          "number": 24,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.2926",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 25",
+          "number": 25,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.0449",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 26",
+          "number": 26,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.1018",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 27",
+          "number": 27,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.364",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 28",
+          "number": 28,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.861",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 29",
+          "number": 29,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.8765",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 30",
+          "number": 30,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.4514",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 31",
+          "number": 31,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.5566",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 32",
+          "number": 32,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.7756",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 33",
+          "number": 33,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.8406",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 34",
+          "number": 34,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.7041",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 35",
+          "number": 35,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.2727",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 36",
+          "number": 36,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.3509",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 37",
+          "number": 37,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.3324",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 38",
+          "number": 38,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.0284",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 39",
+          "number": 39,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.1138",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 40",
+          "number": 40,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.1546",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 41",
+          "number": 41,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.6871",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 42",
+          "number": 42,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.4979",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 43",
+          "number": 43,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.7519",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 44",
+          "number": 44,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.3143",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 45",
+          "number": 45,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix4",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.4382",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 46",
+          "number": 46,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.5874",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 47",
+          "number": 47,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.2525",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 48",
+          "number": 48,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mix12",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.3276",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 49",
+          "number": 49,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.7234",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 50",
+          "number": 50,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.5825",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 51",
+          "number": 51,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Phacelia",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.222",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 52",
+          "number": 52,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.9512",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 53",
+          "number": 53,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.9739",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 54",
+          "number": 54,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Clover",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.378",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 55",
+          "number": 55,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.5573",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 56",
+          "number": 56,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.4014",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 57",
+          "number": 57,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Oat",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.3181",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 58",
+          "number": 58,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.4117",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 59",
+          "number": 59,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "3.9948",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 60",
+          "number": 60,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Mustard",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.9542",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 61",
+          "number": 61,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "0-10 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.3118",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 62",
+          "number": 62,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "20-30 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.8487",
+              "column": "_:n8"
+            }
+          ]
+        },
+        {
+          "@type": [
+            "https://sandbox.orkg.org/class/Row"
+          ],
+          "titles": "Row 63",
+          "number": 63,
+          "cells": [
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "30-40 cm",
+              "column": "_:n6"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "Fallow",
+              "column": "_:n7"
+            },
+            {
+              "@type": [
+                "https://sandbox.orkg.org/class/Cell"
+              ],
+              "value": "2.8481",
+              "column": "_:n8"
+            }
+          ]
+        }
+      ],
+      "@id": "_:n9"
+    }
+  ],
+  "P1005": [
+    "http://purl.obolibrary.org/obo/OBI_0000739"
+  ],
+  "P71163": [
+    {
+      "@id": "_:n10",
+      "label": "A pairwise t-test with MWD response and CC variant predictor",
+      "@type": [
+        "https://sandbox.orkg.org/class/C40022"
+      ],
+      "P71165": [
+        {
+          "@id": "_:n11",
+          "label": "The formula of the pairwise t-test with MWD response and CC variant predictor",
+          "@type": [
+            "https://sandbox.orkg.org/class/C40023"
+          ],
+          "P4009": [
+            {
+              "@id": "_:n12",
+              "label": "MWD_cor ~ cc_variant",
+              "@type": [
+                "https://sandbox.orkg.org/class/C40024"
+              ],
+              "P79000": [
+                "MWD_cor ~ cc_variant"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "P79000": "https://sandbox.orkg.org/property/P79000",
+    "P79001": "https://sandbox.orkg.org/property/P79001",
+    "P4009": "https://sandbox.orkg.org/property/P4009",
+    "P71162": "https://sandbox.orkg.org/property/P71162",
+    "P71163": "https://sandbox.orkg.org/property/P71163",
+    "P1005": "https://sandbox.orkg.org/property/P1005",
+    "P71164": "https://sandbox.orkg.org/property/P71164",
+    "P71165": "https://sandbox.orkg.org/property/P71165",
+    "columns": "https://sandbox.orkg.org/property/CSVW_Columns",
+    "name": "https://sandbox.orkg.org/property/CSVW_Name",
+    "number": "https://sandbox.orkg.org/property/CSVW_Number",
+    "rows": "https://sandbox.orkg.org/property/CSVW_Rows",
+    "cells": "https://sandbox.orkg.org/property/CSVW_Cells",
+    "value": "https://sandbox.orkg.org/property/CSVW_Value",
+    "titles": "https://sandbox.orkg.org/property/CSVW_Titles"
+  }
+}

@@ -99,8 +99,19 @@ ggsave("Fig.2a.png", plot = p1, width = 160, height = 100, units = "mm")
 
 instance <- tp$pairwise_test(
   label="Pairwise t-test with MWD response and CC variant predictor", 
+  method="http://purl.obolibrary.org/obo/OBI_0000739",
   has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
   has_output_dataset=tuple(df.pw.MWD.pvalues, "Pairwise t-test p-values for CC variants at three soil depths"),
-  has_output_figure="",
+  has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2a.png",
+  has_input_model=tp$statistical_model(
+    label="A pairwise t-test with MWD response and CC variant predictor",
+    is_denoted_by=tp$formula(
+      label="The formula of the pairwise t-test with MWD response and CC variant predictor",
+      has_value_specification=tp$value_specification(
+        label="MWD_cor ~ cc_variant",
+        has_specified_value="MWD_cor ~ cc_variant"
+      )
+    )
+  ),
 )
 instance$serialize_to_file("article.contribution.4.json", format="json-ld")
