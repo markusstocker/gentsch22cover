@@ -200,7 +200,7 @@ instance <- tp$model_fitting_2(
   has_output_dataset= tuple(emptDf, 'NULL'),
   
   # Data URI with Base64 string (SVG)
-  has_output_figure=base64enc::dataURI(file = "Fig.2b.svg", mime = "image/svg"),
+  has_output_figure=base64enc::dataURI(file = "Fig.2b.svg", mime = "image/svg+xml"),
   
   has_output_statement= "A comprehensive data evaluation in LMMs indicated, the MWD increased with soil 
   depth and was significantly higher in CC treatments than the fallow."

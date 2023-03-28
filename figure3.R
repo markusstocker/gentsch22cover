@@ -326,6 +326,6 @@ instance <- tp$model_fitting_2(
   has_output_statement="Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution. Latent variables (blue) are predicted by grey arrowed observed variables. Dashed lines indicate covariance variables. Numbers showing standardized estimates with pvalues as asterisk. All model parameters are shown in the R markdown file (supplementary material).",
   
   # Data URI with Base64 string (SVG)
-  has_output_figure=base64enc::dataURI(file = "Fig.3.svg", mime = "image/svg")
+  has_output_figure=base64enc::dataURI(file = "Fig.3.svg", mime = "image/svg+xml")
 )
 instance$serialize_to_file("article.contribution.6.json", format="json-ld")
