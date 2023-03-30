@@ -3,8 +3,8 @@ s <- suppressPackageStartupMessages
 s(library(orkg))
 s(library(tidyverse))
 
-orkg <- ORKG(host="https://sandbox.orkg.org/")
-orkg$templates$materialize_template(template_id = "R253086")
+orkg <- ORKG(host="https://incubating.orkg.org/")
+orkg$templates$materialize_template(template_id = "R450104")
 tp = orkg$templates$list_templates()
 
 se <- function(x) sqrt(var(x,na.rm=TRUE)/length(na.omit(x)))
