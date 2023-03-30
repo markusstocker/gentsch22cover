@@ -11,8 +11,8 @@ s(library(multcomp))
 s(library(multcompView))
 s(library(ggpubr))
 
-orkg <- ORKG(host="https://sandbox.orkg.org/")
-orkg$templates$materialize_template(template_id = "R261006")
+orkg <- ORKG(host="https://incubating.orkg.org/")
+orkg$templates$materialize_template(template_id = "R450109")
 tp = orkg$templates$list_templates()
 
 pairwiseLetters <- function (x) {
