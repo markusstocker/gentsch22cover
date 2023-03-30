@@ -21,8 +21,8 @@ s(library(PerformanceAnalytics)) # cor matrix
 s(library(orkg))
 
 #ORKG R library
-orkg <- ORKG(host="https://sandbox.orkg.org/")
-orkg$templates$materialize_template(template_id = "R277142")
+orkg <- ORKG(host="https://incubating.orkg.org/")
+orkg$templates$materialize_template(template_id = "R450125")
 tp = orkg$templates$list_templates()
 
 
