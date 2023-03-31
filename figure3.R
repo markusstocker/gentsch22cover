@@ -274,7 +274,7 @@ pM <-   hide_var(pM) # hide variances of factors
 pM <- plot(pM)
 pM
 # Save PNG
-ggsave("Fig.3.svg", pM, device = "svg")
+ggsave("Fig.3.png", pM)
 
 ##################### end script #########################################
 
@@ -325,7 +325,7 @@ instance <- tp$model_fitting_2(
   has_output_dataset=tuple(tab, "Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution"),
   has_output_statement="Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution. Latent variables (blue) are predicted by grey arrowed observed variables. Dashed lines indicate covariance variables. Numbers showing standardized estimates with pvalues as asterisk. All model parameters are shown in the R markdown file (supplementary material).",
   
-  # Data URI with Base64 string (SVG)
-  has_output_figure=base64enc::dataURI(file = "Fig.3.svg", mime = "image/svg+xml")
+  # Figure PNG
+  has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.3.png"
 )
 instance$serialize_to_file("article.contribution.6.json", format="json-ld")

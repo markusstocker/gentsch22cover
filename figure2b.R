@@ -156,7 +156,7 @@ df.MWD[c('depth2', 'MWD_cor')]
     theme(legend.position = "bottom")
 )
 
-ggsave("Fig.2b.svg", plot = p2, scale=0.5)
+ggsave("Fig.2b.png", plot = p2, scale=0.5)
 p2
 
 outTab <- ggplot_build(p2)$data[[1]]
@@ -199,8 +199,8 @@ instance <- tp$model_fitting_2(
   # Empty output dataframe (1 row and 1 column) to account for required field
   has_output_dataset= tuple(emptDf, 'NULL'),
   
-  # Data URI with Base64 string (SVG)
-  has_output_figure=base64enc::dataURI(file = "Fig.2b.svg", mime = "image/svg+xml"),
+  # Figure PNG
+  has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2b.png",
   
   has_output_statement= "A comprehensive data evaluation in LMMs indicated, the MWD increased with soil 
   depth and was significantly higher in CC treatments than the fallow."
