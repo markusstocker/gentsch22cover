@@ -159,20 +159,16 @@ df.MWD[c('depth2', 'MWD_cor')]
 ggsave("Fig.2b.png", plot = p2, scale=0.5)
 p2
 
-outTab <- ggplot_build(p2)$data[[1]]
-outTab
-
-
 # overall effects of CC from a LMM (linear mixed effect model)
 # Input: df.MWD
 # Formula: MWD_cor ~ cc_type + (1|depth)
 # Output Figure: Fig.2b.png
 # Output Dataset: df.pw.MWD.tot
 
-# Generate Empty Output Dataset
-#class(df.pw.MWD.tot) <- "data.frame"
+# Generate Output Dataset
+class(df.pw.MWD.tot) <- "data.frame"
 
-emptDf <- data.frame(matrix(nrow = 1, ncol = 1))
+
 
 ##################### ORKG Output ########################################
 
@@ -180,8 +176,7 @@ emptDf <- data.frame(matrix(nrow = 1, ncol = 1))
 instance <- tp$model_fitting_2(
   label="Overall effects of CC from a LMM (linear mixed effect model)", 
   
-  # Links to Zenodo.org
-  has_input_dataset="https://zenodo.org/record/7147566/files/CATCHY_aggregate_stability_2020_block2.csv",
+  has_input_dataset=tuple(df.MWD, " Soil data (OC, TN, bulk density, texture) as well as data from soil aggregate fractionation and evaluation of their aggregate stability."),
   
   has_input_model=tp$statistical_model(
     label="A linear mixed model with MWD as response and CC type as predictor variable",
@@ -196,14 +191,17 @@ instance <- tp$model_fitting_2(
     )
   ),
   
-  # Empty output dataframe (1 row and 1 column) to account for required field
-  has_output_dataset= tuple(emptDf, 'NULL'),
+  # Estimated Marginal Means from emmeans()
+  has_output_dataset= tuple(df.pw.MWD.tot, 'Estimated Marginal Means for CC type'),
   
   # Figure PNG
   has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2b.png",
   
   has_output_statement= "A comprehensive data evaluation in LMMs indicated, the MWD increased with soil 
   depth and was significantly higher in CC treatments than the fallow."
+  
+  # R snippets currently disabled
+  #has_code_snippet="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2b.snippet.R"
   
 )
 instance$serialize_to_file("article.contribution.5.json", format="json-ld")
