@@ -304,11 +304,11 @@ instance <- tp$model_fitting_2(
   has_input_dataset="https://zenodo.org/record/7147566/files/CATCHY_aggregate_stability_2020_block2.csv",
   
   has_input_model=tp$statistical_model(
-    label="Statistical Model",
+    label="Structural Equation Model",
     is_denoted_by=tp$formula(
       label="Formula",
       has_value_specification=tp$value_specification(
-        label="Structural Equation Model",
+        label="Structure equation model (SEM) for investigating the impact of parameters on aggregate OC distribution",
         
         # Provisional String for formula/model
         has_specified_value=
