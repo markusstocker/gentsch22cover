@@ -1,6 +1,7 @@
 library(lme4)
 library(dplyr)
-df.20 <- read.csv("https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv")
+library(lmerTest)
+df.20 <- read.csv("https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv", check.names=FALSE)
 for(i in c(3:9, 11:18)) {
   df.20[,i] <- as.factor(df.20[,i])
 }
