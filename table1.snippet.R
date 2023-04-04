@@ -1,5 +1,4 @@
 library(lme4)
-library(dplyr)
 library(lmerTest)
 df.MWD  <- read.csv("https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv")
 df.MWD$cc_variant <- factor(df.MWD$cc_variant, levels = c("Fallow", "Mustard","Clover", "Oat" , "Phacelia", "Mix4" , "Mix12"))
