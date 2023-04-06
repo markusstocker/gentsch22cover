@@ -22,7 +22,7 @@ s(library(orkg))
 
 #ORKG R library
 orkg <- ORKG(host="https://incubating.orkg.org/")
-orkg$templates$materialize_template(template_id = "R450125")
+orkg$templates$materialize_template(template_id = "R474043")
 tp = orkg$templates$list_templates()
 
 
@@ -297,8 +297,8 @@ class(tab) <- "data.frame"
 tab
 
 
-# Provisional template (model_fitting_2) to allow for the addition of an output figure.
-instance <- tp$model_fitting_2(
+# Provisional template (model_fitting_3) to allow for the addition of an output figure.
+instance <- tp$model_fitting_3(
   label="Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution.", 
   
   #has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv",
