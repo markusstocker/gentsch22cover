@@ -176,7 +176,7 @@ class(df.pw.MWD.tot) <- "data.frame"
 instance <- tp$model_fitting_2(
   label="Overall effects of CC from a LMM (linear mixed effect model)", 
   
-  has_input_dataset=tuple(df.MWD, " Soil data (OC, TN, bulk density, texture) as well as data from soil aggregate fractionation and evaluation of their aggregate stability."),
+  has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv",
   
   has_input_model=tp$statistical_model(
     label="A linear mixed model with MWD as response and CC type as predictor variable",

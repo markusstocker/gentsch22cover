@@ -296,12 +296,12 @@ tab[tab=='cc_type.n'] <-  "Cover crop type"
 class(tab) <- "data.frame"
 tab
 
+
 # Provisional template (model_fitting_2) to allow for the addition of an output figure.
 instance <- tp$model_fitting_2(
   label="Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution.", 
   
-  # Links to Zenodo.org
-  has_input_dataset="https://zenodo.org/record/7147566/files/CATCHY_aggregate_stability_2020_block2.csv",
+  #has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv",
   
   has_input_model=tp$statistical_model(
     label="Structural Equation Model",
