@@ -14,7 +14,7 @@ s(library(ggpubr))
 s(library(orkg))
 
 orkg <- ORKG(host="https://incubating.orkg.org/")
-orkg$templates$materialize_template(template_id = "R450125")
+orkg$templates$materialize_template(template_id = "R474043")
 tp = orkg$templates$list_templates()
 
 
@@ -172,11 +172,11 @@ class(df.pw.MWD.tot) <- "data.frame"
 
 ##################### ORKG Output ########################################
 
-# Provisional template (model_fitting_2) to allow for the addition of an output figure.
-instance <- tp$model_fitting_2(
+# Provisional template (model_fitting_3) to allow for the addition of an output figure.
+instance <- tp$model_fitting_3(
   label="Overall effects of CC from a LMM (linear mixed effect model)", 
   
-  has_input_dataset=tuple(df.MWD, " Soil data (OC, TN, bulk density, texture) as well as data from soil aggregate fractionation and evaluation of their aggregate stability."),
+  has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv",
   
   has_input_model=tp$statistical_model(
     label="A linear mixed model with MWD as response and CC type as predictor variable",
