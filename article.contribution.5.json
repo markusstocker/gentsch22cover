@@ -4,47 +4,14 @@
   "@type": [
     "https://incubating.orkg.org/class/C33000"
   ],
-  "P69029": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2b.png"
-  ],
-  "P68001": [
-    {
-      "@id": "_:n2",
-      "label": "A linear mixed model with MWD as response and CC type as predictor variable",
-      "@type": [
-        "https://incubating.orkg.org/class/C31006"
-      ],
-      "P68003": [
-        {
-          "@id": "_:n3",
-          "label": "The formula of the linear mixed model with MWD as response and CC type as predictor variable",
-          "@type": [
-            "https://incubating.orkg.org/class/C31004"
-          ],
-          "P4009": [
-            {
-              "@id": "_:n4",
-              "label": "MWD_cor ~ cc_type + (1|depth)",
-              "@type": [
-                "https://incubating.orkg.org/class/C31008"
-              ],
-              "P68004": [
-                "MWD_cor ~ cc_type + (1|depth)"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "P68000": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv"
-  ],
   "P69030": [
     "A comprehensive data evaluation in LMMs indicated, the MWD increased with soil \n  depth and was significantly higher in CC treatments than the fallow."
   ],
-  "HAS_IMPLEMENTATION": [
+  "P72000": [
     "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2b.snippet.R"
+  ],
+  "P69029": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2b.png"
   ],
   "P68002": [
     {
@@ -59,7 +26,7 @@
           ],
           "titles": "cc_type",
           "number": 1,
-          "@id": "_:n5"
+          "@id": "_:n2"
         },
         {
           "@type": [
@@ -67,7 +34,7 @@
           ],
           "titles": "emmean",
           "number": 2,
-          "@id": "_:n6"
+          "@id": "_:n3"
         },
         {
           "@type": [
@@ -75,7 +42,7 @@
           ],
           "titles": "SE",
           "number": 3,
-          "@id": "_:n7"
+          "@id": "_:n4"
         },
         {
           "@type": [
@@ -83,7 +50,7 @@
           ],
           "titles": "df",
           "number": 4,
-          "@id": "_:n8"
+          "@id": "_:n5"
         },
         {
           "@type": [
@@ -91,7 +58,7 @@
           ],
           "titles": "lower.CL",
           "number": 5,
-          "@id": "_:n9"
+          "@id": "_:n6"
         },
         {
           "@type": [
@@ -99,7 +66,7 @@
           ],
           "titles": "upper.CL",
           "number": 6,
-          "@id": "_:n10"
+          "@id": "_:n7"
         },
         {
           "@type": [
@@ -107,7 +74,7 @@
           ],
           "titles": ".group",
           "number": 7,
-          "@id": "_:n11"
+          "@id": "_:n8"
         }
       ],
       "rows": [
@@ -123,49 +90,49 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.6488",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1818",
-              "column": "_:n7"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "4.1503",
-              "column": "_:n8"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.1512",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.1464",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": " a ",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -181,49 +148,49 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.0779",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1646",
-              "column": "_:n7"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.808",
-              "column": "_:n8"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.5331",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.6228",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "  b",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -239,54 +206,87 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Single",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.9659",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1554",
-              "column": "_:n7"
+              "column": "_:n4"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.2287",
-              "column": "_:n8"
+              "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.3591",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.5728",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "  b",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         }
       ],
-      "@id": "_:n12"
+      "@id": "_:n9"
+    }
+  ],
+  "P68000": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv"
+  ],
+  "P68001": [
+    {
+      "@id": "_:n10",
+      "label": "A linear mixed model with MWD as response and CC type as predictor variable",
+      "@type": [
+        "https://incubating.orkg.org/class/C31006"
+      ],
+      "P68003": [
+        {
+          "@id": "_:n11",
+          "label": "The formula of the linear mixed model with MWD as response and CC type as predictor variable",
+          "@type": [
+            "https://incubating.orkg.org/class/C31004"
+          ],
+          "P4009": [
+            {
+              "@id": "_:n12",
+              "label": "MWD_cor ~ cc_type + (1|depth)",
+              "@type": [
+                "https://incubating.orkg.org/class/C31008"
+              ],
+              "P68004": [
+                "MWD_cor ~ cc_type + (1|depth)"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "@context": {
@@ -299,6 +299,7 @@
     "P68003": "https://incubating.orkg.org/property/P68003",
     "P68004": "https://incubating.orkg.org/property/P68004",
     "P4009": "https://incubating.orkg.org/property/P4009",
+    "P72000": "https://incubating.orkg.org/property/P72000",
     "columns": "https://incubating.orkg.org/property/CSVW_Columns",
     "name": "https://incubating.orkg.org/property/CSVW_Name",
     "number": "https://incubating.orkg.org/property/CSVW_Number",

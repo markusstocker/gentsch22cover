@@ -5931,14 +5931,14 @@
       "@id": "_:n10"
     }
   ],
+  "P72000": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure1.snippet.R"
+  ],
   "P69030": [
     "The variability of OC distribution within aggregates was quite large between and within CC treatments."
   ],
   "P69029": [
     "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.1.png"
-  ],
-  "HAS_IMPLEMENTATION": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure1.snippet.R"
   ],
   "P68000": [
     "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.radar.csv"
@@ -5949,6 +5949,7 @@
     "P69030": "https://incubating.orkg.org/property/P69030",
     "P68000": "https://incubating.orkg.org/property/P68000",
     "P68002": "https://incubating.orkg.org/property/P68002",
+    "P72000": "https://incubating.orkg.org/property/P72000",
     "columns": "https://incubating.orkg.org/property/CSVW_Columns",
     "name": "https://incubating.orkg.org/property/CSVW_Name",
     "number": "https://incubating.orkg.org/property/CSVW_Number",

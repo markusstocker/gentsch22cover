@@ -4,38 +4,8 @@
   "@type": [
     "https://incubating.orkg.org/class/C32012"
   ],
-  "P68001": [
-    {
-      "@id": "_:n2",
-      "label": "A pairwise t-test with MWD response and CC variant predictor",
-      "@type": [
-        "https://incubating.orkg.org/class/C31006"
-      ],
-      "P68003": [
-        {
-          "@id": "_:n3",
-          "label": "The formula of the pairwise t-test with MWD response and CC variant predictor",
-          "@type": [
-            "https://incubating.orkg.org/class/C31004"
-          ],
-          "P4009": [
-            {
-              "@id": "_:n4",
-              "label": "MWD_cor ~ cc_variant",
-              "@type": [
-                "https://incubating.orkg.org/class/C31008"
-              ],
-              "P68004": [
-                "MWD_cor ~ cc_variant"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "P69029": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2a.png"
+  "P69031": [
+    "http://purl.obolibrary.org/obo/OBI_0000739"
   ],
   "P68002": [
     {
@@ -50,7 +20,7 @@
           ],
           "titles": "depth",
           "number": 1,
-          "@id": "_:n5"
+          "@id": "_:n2"
         },
         {
           "@type": [
@@ -58,7 +28,7 @@
           ],
           "titles": "p.value",
           "number": 2,
-          "@id": "_:n6"
+          "@id": "_:n3"
         },
         {
           "@type": [
@@ -66,7 +36,7 @@
           ],
           "titles": "compnames",
           "number": 3,
-          "@id": "_:n7"
+          "@id": "_:n4"
         }
       ],
       "rows": [
@@ -82,21 +52,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.8797",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -112,21 +82,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0173",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -142,21 +112,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.7949",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -172,21 +142,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.7769",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -202,21 +172,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.4554",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -232,21 +202,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1238",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -262,21 +232,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0268",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -292,21 +262,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.9607",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -322,21 +292,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.8378",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -352,21 +322,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.5228",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -382,21 +352,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1398",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -412,21 +382,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0054",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -442,21 +412,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.2294",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -472,21 +442,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1718",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -502,21 +472,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.7002",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -532,21 +502,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.8463",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -562,21 +532,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.5066",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -592,21 +562,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1531",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -622,21 +592,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.8037",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Phacelia",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -652,21 +622,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.3341",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Phacelia",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -682,21 +652,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.3482",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Mix4",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -712,21 +682,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0981",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -742,21 +712,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1924",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -772,21 +742,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1551",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -802,21 +772,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.3237",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -832,21 +802,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1879",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -862,21 +832,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0491",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -892,21 +862,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.3561",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -922,21 +892,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.5278",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -952,21 +922,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.2875",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -982,21 +952,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.3638",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1012,21 +982,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.7972",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1042,21 +1012,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.6996",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1072,21 +1042,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.6783",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1102,21 +1072,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.9968",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1132,21 +1102,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0638",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1162,21 +1132,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.5454",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1192,21 +1162,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.7266",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1222,21 +1192,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.2547",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1252,21 +1222,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.707",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Phacelia",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1282,21 +1252,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.119",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Phacelia",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1312,21 +1282,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0797",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Mix4",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1342,21 +1312,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.6859",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1372,21 +1342,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.8713",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1402,21 +1372,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.4482",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1432,21 +1402,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0169",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1462,21 +1432,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.0369",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1492,21 +1462,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.6091",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Fallow",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1522,21 +1492,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.9258",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1552,21 +1522,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.7346",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1582,21 +1552,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.1542",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1612,21 +1582,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.2783",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1642,21 +1612,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.8026",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Mustard",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1672,21 +1642,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.7278",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1702,21 +1672,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.2771",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1732,21 +1702,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.4048",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1762,21 +1732,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.7715",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Clover",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1792,21 +1762,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.2736",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1822,21 +1792,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.4835",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1852,21 +1822,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.9974",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Oat",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1882,21 +1852,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.4089",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4-Phacelia",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1912,21 +1882,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.4394",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Phacelia",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -1942,33 +1912,27 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.6297",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12-Mix4",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         }
       ],
-      "@id": "_:n8"
+      "@id": "_:n5"
     }
-  ],
-  "HAS_IMPLEMENTATION": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2a.snippet.R"
-  ],
-  "P69031": [
-    "http://purl.obolibrary.org/obo/OBI_0000739"
   ],
   "P68000": [
     {
@@ -1983,7 +1947,7 @@
           ],
           "titles": "depth",
           "number": 1,
-          "@id": "_:n9"
+          "@id": "_:n6"
         },
         {
           "@type": [
@@ -1991,7 +1955,7 @@
           ],
           "titles": "cc_variant",
           "number": 2,
-          "@id": "_:n10"
+          "@id": "_:n7"
         },
         {
           "@type": [
@@ -1999,7 +1963,7 @@
           ],
           "titles": "MWD_cor",
           "number": 3,
-          "@id": "_:n11"
+          "@id": "_:n8"
         }
       ],
       "rows": [
@@ -2015,21 +1979,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.4118",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2045,21 +2009,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.9785",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2075,21 +2039,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.6991",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2105,21 +2069,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.5953",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2135,21 +2099,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.0213",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2165,21 +2129,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.0414",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2195,21 +2159,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.8356",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2225,21 +2189,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.8241",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2255,21 +2219,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.2952",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2285,21 +2249,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.8983",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2315,21 +2279,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.586",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2345,21 +2309,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.4778",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2375,21 +2339,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.112",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2405,21 +2369,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.3742",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2435,21 +2399,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.5449",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2465,21 +2429,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.8681",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2495,21 +2459,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.0931",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2525,21 +2489,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.1554",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2555,21 +2519,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.5116",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2585,21 +2549,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.7159",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2615,21 +2579,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.6965",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2645,21 +2609,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.4752",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2675,21 +2639,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.3478",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2705,21 +2669,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.2926",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2735,21 +2699,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.0449",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2765,21 +2729,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.1018",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2795,21 +2759,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.364",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2825,21 +2789,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.861",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2855,21 +2819,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.8765",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2885,21 +2849,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.4514",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2915,21 +2879,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.5566",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2945,21 +2909,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.7756",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -2975,21 +2939,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.8406",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3005,21 +2969,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.7041",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3035,21 +2999,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.2727",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3065,21 +3029,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.3509",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3095,21 +3059,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.3324",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3125,21 +3089,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.0284",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3155,21 +3119,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.1138",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3185,21 +3149,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.1546",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3215,21 +3179,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.6871",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3245,21 +3209,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.4979",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3275,21 +3239,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.7519",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3305,21 +3269,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.3143",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3335,21 +3299,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix4",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.4382",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3365,21 +3329,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.5874",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3395,21 +3359,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.2525",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3425,21 +3389,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mix12",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.3276",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3455,21 +3419,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.7234",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3485,21 +3449,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.5825",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3515,21 +3479,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Phacelia",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.222",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3545,21 +3509,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.9512",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3575,21 +3539,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.9739",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3605,21 +3569,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clover",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.378",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3635,21 +3599,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.5573",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3665,21 +3629,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.4014",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3695,21 +3659,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Oat",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.3181",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3725,21 +3689,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.4117",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3755,21 +3719,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "3.9948",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3785,21 +3749,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Mustard",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.9542",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3815,21 +3779,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0-10 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.3118",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3845,21 +3809,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "20-30 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.8487",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         },
@@ -3875,27 +3839,63 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "30-40 cm",
-              "column": "_:n9"
+              "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Fallow",
-              "column": "_:n10"
+              "column": "_:n7"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "2.8481",
-              "column": "_:n11"
+              "column": "_:n8"
             }
           ]
         }
       ],
-      "@id": "_:n12"
+      "@id": "_:n9"
     }
+  ],
+  "P68001": [
+    {
+      "@id": "_:n10",
+      "label": "A pairwise t-test with MWD response and CC variant predictor",
+      "@type": [
+        "https://incubating.orkg.org/class/C31006"
+      ],
+      "P68003": [
+        {
+          "@id": "_:n11",
+          "label": "The formula of the pairwise t-test with MWD response and CC variant predictor",
+          "@type": [
+            "https://incubating.orkg.org/class/C31004"
+          ],
+          "P4009": [
+            {
+              "@id": "_:n12",
+              "label": "MWD_cor ~ cc_variant",
+              "@type": [
+                "https://incubating.orkg.org/class/C31008"
+              ],
+              "P68004": [
+                "MWD_cor ~ cc_variant"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "P72000": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2a.snippet.R"
+  ],
+  "P69029": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2a.png"
   ],
   "@context": {
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -3907,6 +3907,7 @@
     "P68003": "https://incubating.orkg.org/property/P68003",
     "P68004": "https://incubating.orkg.org/property/P68004",
     "P4009": "https://incubating.orkg.org/property/P4009",
+    "P72000": "https://incubating.orkg.org/property/P72000",
     "columns": "https://incubating.orkg.org/property/CSVW_Columns",
     "name": "https://incubating.orkg.org/property/CSVW_Name",
     "number": "https://incubating.orkg.org/property/CSVW_Number",

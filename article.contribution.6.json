@@ -4,47 +4,14 @@
   "@type": [
     "https://incubating.orkg.org/class/C33000"
   ],
-  "P69029": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.3.png"
-  ],
-  "P68001": [
-    {
-      "@id": "_:n2",
-      "label": "SEM for investigating the impact of parameters on aggregate OC distribution",
-      "@type": [
-        "https://incubating.orkg.org/class/C31006"
-      ],
-      "P68003": [
-        {
-          "@id": "_:n3",
-          "label": "Formula for a SEM investigating the impact of parameters on aggregate OC distribution",
-          "@type": [
-            "https://incubating.orkg.org/class/C31004"
-          ],
-          "P4009": [
-            {
-              "@id": "_:n4",
-              "label": "Distribution =~ OC1 + OC4_2 + OC8_4 + OC16_8,\n              Soil_prop =~ BD + Clay + OC,\n              Distribution ~ cc_type.n + Soil_prop + MWD_cor,\n              OC1 ~~ OC8_4,\n              OC1 ~~ OC16_8,\n              OC1 ~~ OC4_2,\n              OC8_4~~OC4_2",
-              "@type": [
-                "https://incubating.orkg.org/class/C31008"
-              ],
-              "P68004": [
-                "Distribution =~ OC1 + OC4_2 + OC8_4 + OC16_8,\n                      Soil_prop =~ BD + Clay + OC,\n                      Distribution ~ cc_type.n + Soil_prop + MWD_cor,\n                      OC1 ~~ OC8_4,\n                      OC1 ~~ OC16_8,\n                      OC1 ~~ OC4_2,\n                      OC8_4~~OC4_2"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "P68000": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv"
-  ],
   "P69030": [
     "SEM investigating the impact of parameters on aggregate OC distribution. Latent variables (blue) are predicted by grey arrowed observed variables. Dashed lines indicate covariance variables. Numbers showing standardized estimates with pvalues as asterisk. All model parameters are shown in the R markdown file (supplementary material)."
   ],
-  "HAS_IMPLEMENTATION": [
+  "P72000": [
     "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure3.snippet.R"
+  ],
+  "P69029": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.3.png"
   ],
   "P68002": [
     {
@@ -59,7 +26,7 @@
           ],
           "titles": "from",
           "number": 1,
-          "@id": "_:n5"
+          "@id": "_:n2"
         },
         {
           "@type": [
@@ -67,7 +34,7 @@
           ],
           "titles": "to",
           "number": 2,
-          "@id": "_:n6"
+          "@id": "_:n3"
         },
         {
           "@type": [
@@ -75,7 +42,7 @@
           ],
           "titles": "est_sig_std",
           "number": 3,
-          "@id": "_:n7"
+          "@id": "_:n4"
         }
       ],
       "rows": [
@@ -91,21 +58,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 1 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.75***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -121,21 +88,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 4-2 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.52***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -151,21 +118,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 8-4 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.73***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -181,21 +148,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 16-8 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.35**",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -211,21 +178,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Soil_prop",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "BD",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.88***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -241,21 +208,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Soil_prop",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clay",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.35**",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -271,21 +238,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Soil_prop",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "OC",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.77***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -301,21 +268,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Cover crop type",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.31*",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -331,21 +298,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Soil_prop",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.55***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -361,21 +328,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "MWD",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.61***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -391,21 +358,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 1 mm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 8-4 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.63***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -421,21 +388,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 1 mm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 16-8 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.45***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -451,21 +418,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 1 mm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 4-2 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "-0.64***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -481,21 +448,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 4-2 mm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 8-4 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.19",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -511,21 +478,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 1 mm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 1 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.43*",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -541,21 +508,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 4-2 mm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 4-2 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.73***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -571,21 +538,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 8-4 mm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 8-4 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.46*",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -601,21 +568,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 16-8 mm",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "< 16-8 mm",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.88***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -631,21 +598,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "BD",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "BD",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.22",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -661,21 +628,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clay",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Clay",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.88***",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -691,21 +658,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "OC",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "OC",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.41**",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -721,21 +688,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Aggreg. distrib.",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.3",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -751,21 +718,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Soil_prop",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Soil_prop",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "1.0",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -781,21 +748,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Cover crop type",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Cover crop type",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "1.0",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -811,21 +778,21 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "Cover crop type",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "MWD",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "0.16",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         },
@@ -841,26 +808,59 @@
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "MWD",
-              "column": "_:n5"
+              "column": "_:n2"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "MWD",
-              "column": "_:n6"
+              "column": "_:n3"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
               "value": "1.0",
-              "column": "_:n7"
+              "column": "_:n4"
             }
           ]
         }
       ],
-      "@id": "_:n8"
+      "@id": "_:n5"
+    }
+  ],
+  "P68000": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv"
+  ],
+  "P68001": [
+    {
+      "@id": "_:n6",
+      "label": "SEM for investigating the impact of parameters on aggregate OC distribution",
+      "@type": [
+        "https://incubating.orkg.org/class/C31006"
+      ],
+      "P68003": [
+        {
+          "@id": "_:n7",
+          "label": "Formula for a SEM investigating the impact of parameters on aggregate OC distribution",
+          "@type": [
+            "https://incubating.orkg.org/class/C31004"
+          ],
+          "P4009": [
+            {
+              "@id": "_:n8",
+              "label": "Distribution =~ OC1 + OC4_2 + OC8_4 + OC16_8,\n              Soil_prop =~ BD + Clay + OC,\n              Distribution ~ cc_type.n + Soil_prop + MWD_cor,\n              OC1 ~~ OC8_4,\n              OC1 ~~ OC16_8,\n              OC1 ~~ OC4_2,\n              OC8_4~~OC4_2",
+              "@type": [
+                "https://incubating.orkg.org/class/C31008"
+              ],
+              "P68004": [
+                "Distribution =~ OC1 + OC4_2 + OC8_4 + OC16_8,\n                      Soil_prop =~ BD + Clay + OC,\n                      Distribution ~ cc_type.n + Soil_prop + MWD_cor,\n                      OC1 ~~ OC8_4,\n                      OC1 ~~ OC16_8,\n                      OC1 ~~ OC4_2,\n                      OC8_4~~OC4_2"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "@context": {
@@ -873,6 +873,7 @@
     "P68003": "https://incubating.orkg.org/property/P68003",
     "P68004": "https://incubating.orkg.org/property/P68004",
     "P4009": "https://incubating.orkg.org/property/P4009",
+    "P72000": "https://incubating.orkg.org/property/P72000",
     "columns": "https://incubating.orkg.org/property/CSVW_Columns",
     "name": "https://incubating.orkg.org/property/CSVW_Name",
     "number": "https://incubating.orkg.org/property/CSVW_Number",
