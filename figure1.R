@@ -46,6 +46,11 @@ df.20$depth <- recode(df.20$depth, "0-10" = "0-10 cm", "20-30"="20-30 cm", "30-4
 df.20$cc_type <- ifelse(df.20$cc_variant %in% c("Mix4", "Mix12"), "Mix", "Single")
 df.20$cc_type <- as.factor(ifelse(df.20$cc_variant == "Fallow", "Fallow", df.20$cc_type))
 
+# order Fractions
+df.20$Fraction <- factor(df.20$Fraction, levels=c("<1","2-1","4-2","8-4","16-8", "bulk"))
+levels(df.20$Fraction)
+
+
 coord_radar <- function (theta = "x", start = 0, direction = 1, clip = "off") {
   theta <- match.arg(theta, c("x", "y"))
   r <- if (theta == "x") "y" else "x"
@@ -115,9 +120,10 @@ ggsave("Fig.1.png", width=160, height = 110,dpi = 500, units = "mm")
 
 instance <- tp$descriptive_statistical_calculation(
   label="Descriptive statistical calculation for relative proportion of OC in different soil fractions in percentage of fallow level", 
-  has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.20.csv",
+  has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.radar.csv",
   has_output_dataset=tuple(as.data.frame(df.radar.m), "Relative proportion of OC in different soil fractions in percentage of fallow level"),
   has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.1.png",
-  has_output_statement="The variability of OC distribution within aggregates was quite large between and within CC treatments."
+  has_output_statement="The variability of OC distribution within aggregates was quite large between and within CC treatments.",
+  has_implementation="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure1.snippet.R"
 )
 instance$serialize_to_file("article.contribution.3.json", format="json-ld")

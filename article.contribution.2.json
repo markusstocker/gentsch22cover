@@ -4,6 +4,9 @@
   "@type": [
     "https://incubating.orkg.org/class/C31007"
   ],
+  "HAS_IMPLEMENTATION": [
+    "https://github.com/markusstocker/gentsch22cover/blob/main/table1.snippet.R"
+  ],
   "P68002": [
     {
       "label": "Results of LMM with MWD as response and CC type as predictor variable",

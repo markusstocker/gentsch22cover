@@ -37,9 +37,9 @@
   "P69029": [
     "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2a.png"
   ],
-  "P68000": [
+  "P68002": [
     {
-      "label": "Difference of mean weight diameter between the dry and wet sieving method",
+      "label": "Pairwise t-test p-values for CC variants at three soil depths",
       "@type": [
         "https://incubating.orkg.org/class/Table"
       ],
@@ -56,7 +56,7 @@
           "@type": [
             "https://incubating.orkg.org/class/Column"
           ],
-          "titles": "cc_variant",
+          "titles": "p.value",
           "number": 2,
           "@id": "_:n6"
         },
@@ -64,7 +64,7 @@
           "@type": [
             "https://incubating.orkg.org/class/Column"
           ],
-          "titles": "MWD_cor",
+          "titles": "compnames",
           "number": 3,
           "@id": "_:n7"
         }
@@ -88,14 +88,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.8797",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.4118",
+              "value": "Mustard-Fallow",
               "column": "_:n7"
             }
           ]
@@ -111,21 +111,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.0173",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.9785",
+              "value": "Clover-Fallow",
               "column": "_:n7"
             }
           ]
@@ -141,21 +141,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.7949",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.6991",
+              "value": "Oat-Fallow",
               "column": "_:n7"
             }
           ]
@@ -178,14 +178,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.7769",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.5953",
+              "value": "Phacelia-Fallow",
               "column": "_:n7"
             }
           ]
@@ -201,21 +201,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.4554",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.0213",
+              "value": "Mix4-Fallow",
               "column": "_:n7"
             }
           ]
@@ -231,21 +231,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.1238",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.0414",
+              "value": "Mix12-Fallow",
               "column": "_:n7"
             }
           ]
@@ -268,14 +268,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.0268",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.8356",
+              "value": "Clover-Mustard",
               "column": "_:n7"
             }
           ]
@@ -291,21 +291,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.9607",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.8241",
+              "value": "Oat-Mustard",
               "column": "_:n7"
             }
           ]
@@ -321,21 +321,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.8378",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.2952",
+              "value": "Phacelia-Mustard",
               "column": "_:n7"
             }
           ]
@@ -358,14 +358,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.5228",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.8983",
+              "value": "Mix4-Mustard",
               "column": "_:n7"
             }
           ]
@@ -381,21 +381,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.1398",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.586",
+              "value": "Mix12-Mustard",
               "column": "_:n7"
             }
           ]
@@ -411,21 +411,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.0054",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.4778",
+              "value": "Oat-Clover",
               "column": "_:n7"
             }
           ]
@@ -448,14 +448,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.2294",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.112",
+              "value": "Phacelia-Clover",
               "column": "_:n7"
             }
           ]
@@ -471,21 +471,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.1718",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.3742",
+              "value": "Mix4-Clover",
               "column": "_:n7"
             }
           ]
@@ -501,21 +501,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.7002",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.5449",
+              "value": "Mix12-Clover",
               "column": "_:n7"
             }
           ]
@@ -538,14 +538,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.8463",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.8681",
+              "value": "Phacelia-Oat",
               "column": "_:n7"
             }
           ]
@@ -561,21 +561,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.5066",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.0931",
+              "value": "Mix4-Oat",
               "column": "_:n7"
             }
           ]
@@ -591,21 +591,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.1531",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.1554",
+              "value": "Mix12-Oat",
               "column": "_:n7"
             }
           ]
@@ -628,14 +628,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.8037",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.5116",
+              "value": "Mix4-Phacelia",
               "column": "_:n7"
             }
           ]
@@ -651,21 +651,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.3341",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.7159",
+              "value": "Mix12-Phacelia",
               "column": "_:n7"
             }
           ]
@@ -681,21 +681,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.3482",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.6965",
+              "value": "Mix12-Mix4",
               "column": "_:n7"
             }
           ]
@@ -711,21 +711,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.0981",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.4752",
+              "value": "Mustard-Fallow",
               "column": "_:n7"
             }
           ]
@@ -748,14 +748,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.1924",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.3478",
+              "value": "Clover-Fallow",
               "column": "_:n7"
             }
           ]
@@ -771,21 +771,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.1551",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.2926",
+              "value": "Oat-Fallow",
               "column": "_:n7"
             }
           ]
@@ -801,21 +801,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.3237",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.0449",
+              "value": "Phacelia-Fallow",
               "column": "_:n7"
             }
           ]
@@ -838,14 +838,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.1879",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.1018",
+              "value": "Mix4-Fallow",
               "column": "_:n7"
             }
           ]
@@ -861,21 +861,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.0491",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.364",
+              "value": "Mix12-Fallow",
               "column": "_:n7"
             }
           ]
@@ -891,21 +891,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.3561",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.861",
+              "value": "Clover-Mustard",
               "column": "_:n7"
             }
           ]
@@ -928,14 +928,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.5278",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.8765",
+              "value": "Oat-Mustard",
               "column": "_:n7"
             }
           ]
@@ -951,21 +951,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.2875",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.4514",
+              "value": "Phacelia-Mustard",
               "column": "_:n7"
             }
           ]
@@ -981,21 +981,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.3638",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.5566",
+              "value": "Mix4-Mustard",
               "column": "_:n7"
             }
           ]
@@ -1018,14 +1018,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.7972",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.7756",
+              "value": "Mix12-Mustard",
               "column": "_:n7"
             }
           ]
@@ -1041,21 +1041,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.6996",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.8406",
+              "value": "Oat-Clover",
               "column": "_:n7"
             }
           ]
@@ -1071,21 +1071,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.6783",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.7041",
+              "value": "Phacelia-Clover",
               "column": "_:n7"
             }
           ]
@@ -1108,14 +1108,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.9968",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.2727",
+              "value": "Mix4-Clover",
               "column": "_:n7"
             }
           ]
@@ -1131,21 +1131,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.0638",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.3509",
+              "value": "Mix12-Clover",
               "column": "_:n7"
             }
           ]
@@ -1161,21 +1161,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.5454",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.3324",
+              "value": "Phacelia-Oat",
               "column": "_:n7"
             }
           ]
@@ -1198,14 +1198,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.7266",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.0284",
+              "value": "Mix4-Oat",
               "column": "_:n7"
             }
           ]
@@ -1221,21 +1221,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.2547",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.1138",
+              "value": "Mix12-Oat",
               "column": "_:n7"
             }
           ]
@@ -1251,21 +1251,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.707",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.1546",
+              "value": "Mix4-Phacelia",
               "column": "_:n7"
             }
           ]
@@ -1288,14 +1288,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.119",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.6871",
+              "value": "Mix12-Phacelia",
               "column": "_:n7"
             }
           ]
@@ -1311,21 +1311,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.0797",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.4979",
+              "value": "Mix12-Mix4",
               "column": "_:n7"
             }
           ]
@@ -1341,21 +1341,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.6859",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.7519",
+              "value": "Mustard-Fallow",
               "column": "_:n7"
             }
           ]
@@ -1371,21 +1371,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.8713",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.3143",
+              "value": "Clover-Fallow",
               "column": "_:n7"
             }
           ]
@@ -1408,14 +1408,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4",
+              "value": "0.4482",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.4382",
+              "value": "Oat-Fallow",
               "column": "_:n7"
             }
           ]
@@ -1431,21 +1431,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.0169",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.5874",
+              "value": "Phacelia-Fallow",
               "column": "_:n7"
             }
           ]
@@ -1461,21 +1461,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.0369",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.2525",
+              "value": "Mix4-Fallow",
               "column": "_:n7"
             }
           ]
@@ -1498,14 +1498,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12",
+              "value": "0.6091",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.3276",
+              "value": "Mix12-Fallow",
               "column": "_:n7"
             }
           ]
@@ -1521,21 +1521,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.9258",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.7234",
+              "value": "Clover-Mustard",
               "column": "_:n7"
             }
           ]
@@ -1551,21 +1551,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.7346",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.5825",
+              "value": "Oat-Mustard",
               "column": "_:n7"
             }
           ]
@@ -1588,14 +1588,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia",
+              "value": "0.1542",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.222",
+              "value": "Phacelia-Mustard",
               "column": "_:n7"
             }
           ]
@@ -1611,21 +1611,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.2783",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.9512",
+              "value": "Mix4-Mustard",
               "column": "_:n7"
             }
           ]
@@ -1641,21 +1641,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.8026",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.9739",
+              "value": "Mix12-Mustard",
               "column": "_:n7"
             }
           ]
@@ -1678,14 +1678,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover",
+              "value": "0.7278",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.378",
+              "value": "Oat-Clover",
               "column": "_:n7"
             }
           ]
@@ -1701,21 +1701,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.2771",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.5573",
+              "value": "Phacelia-Clover",
               "column": "_:n7"
             }
           ]
@@ -1731,21 +1731,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.4048",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.4014",
+              "value": "Mix4-Clover",
               "column": "_:n7"
             }
           ]
@@ -1768,14 +1768,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat",
+              "value": "0.7715",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.3181",
+              "value": "Mix12-Clover",
               "column": "_:n7"
             }
           ]
@@ -1791,21 +1791,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.2736",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.4117",
+              "value": "Phacelia-Oat",
               "column": "_:n7"
             }
           ]
@@ -1821,21 +1821,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.4835",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "3.9948",
+              "value": "Mix4-Oat",
               "column": "_:n7"
             }
           ]
@@ -1858,14 +1858,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard",
+              "value": "0.9974",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.9542",
+              "value": "Mix12-Oat",
               "column": "_:n7"
             }
           ]
@@ -1881,21 +1881,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.4089",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.3118",
+              "value": "Mix4-Phacelia",
               "column": "_:n7"
             }
           ]
@@ -1911,21 +1911,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n5"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.4394",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.8487",
+              "value": "Mix12-Phacelia",
               "column": "_:n7"
             }
           ]
@@ -1948,14 +1948,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Fallow",
+              "value": "0.6297",
               "column": "_:n6"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "2.8481",
+              "value": "Mix12-Mix4",
               "column": "_:n7"
             }
           ]
@@ -1964,9 +1964,15 @@
       "@id": "_:n8"
     }
   ],
-  "P68002": [
+  "HAS_IMPLEMENTATION": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2a.snippet.R"
+  ],
+  "P69031": [
+    "http://purl.obolibrary.org/obo/OBI_0000739"
+  ],
+  "P68000": [
     {
-      "label": "Pairwise t-test p-values for CC variants at three soil depths",
+      "label": "Difference of mean weight diameter between the dry and wet sieving method",
       "@type": [
         "https://incubating.orkg.org/class/Table"
       ],
@@ -1983,7 +1989,7 @@
           "@type": [
             "https://incubating.orkg.org/class/Column"
           ],
-          "titles": "p.value",
+          "titles": "cc_variant",
           "number": 2,
           "@id": "_:n10"
         },
@@ -1991,7 +1997,7 @@
           "@type": [
             "https://incubating.orkg.org/class/Column"
           ],
-          "titles": "compnames",
+          "titles": "MWD_cor",
           "number": 3,
           "@id": "_:n11"
         }
@@ -2015,14 +2021,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.8797",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard-Fallow",
+              "value": "2.4118",
               "column": "_:n11"
             }
           ]
@@ -2038,21 +2044,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0173",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover-Fallow",
+              "value": "2.9785",
               "column": "_:n11"
             }
           ]
@@ -2068,21 +2074,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.7949",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Fallow",
+              "value": "2.6991",
               "column": "_:n11"
             }
           ]
@@ -2105,14 +2111,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.7769",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Fallow",
+              "value": "2.5953",
               "column": "_:n11"
             }
           ]
@@ -2128,21 +2134,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.4554",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Fallow",
+              "value": "2.0213",
               "column": "_:n11"
             }
           ]
@@ -2158,21 +2164,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.1238",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Fallow",
+              "value": "3.0414",
               "column": "_:n11"
             }
           ]
@@ -2195,14 +2201,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0268",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover-Mustard",
+              "value": "2.8356",
               "column": "_:n11"
             }
           ]
@@ -2218,21 +2224,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.9607",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Mustard",
+              "value": "2.8241",
               "column": "_:n11"
             }
           ]
@@ -2248,21 +2254,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.8378",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Mustard",
+              "value": "3.2952",
               "column": "_:n11"
             }
           ]
@@ -2285,14 +2291,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.5228",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Mustard",
+              "value": "2.8983",
               "column": "_:n11"
             }
           ]
@@ -2308,21 +2314,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.1398",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Mustard",
+              "value": "3.586",
               "column": "_:n11"
             }
           ]
@@ -2338,21 +2344,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0054",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Clover",
+              "value": "2.4778",
               "column": "_:n11"
             }
           ]
@@ -2375,14 +2381,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.2294",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Clover",
+              "value": "2.112",
               "column": "_:n11"
             }
           ]
@@ -2398,21 +2404,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.1718",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Clover",
+              "value": "3.3742",
               "column": "_:n11"
             }
           ]
@@ -2428,21 +2434,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.7002",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Clover",
+              "value": "3.5449",
               "column": "_:n11"
             }
           ]
@@ -2465,14 +2471,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.8463",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Oat",
+              "value": "2.8681",
               "column": "_:n11"
             }
           ]
@@ -2488,21 +2494,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.5066",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Oat",
+              "value": "3.0931",
               "column": "_:n11"
             }
           ]
@@ -2518,21 +2524,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.1531",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Oat",
+              "value": "3.1554",
               "column": "_:n11"
             }
           ]
@@ -2555,14 +2561,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.8037",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Phacelia",
+              "value": "2.5116",
               "column": "_:n11"
             }
           ]
@@ -2578,21 +2584,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.3341",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Phacelia",
+              "value": "2.7159",
               "column": "_:n11"
             }
           ]
@@ -2608,21 +2614,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0-10 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.3482",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Mix4",
+              "value": "2.6965",
               "column": "_:n11"
             }
           ]
@@ -2638,21 +2644,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0981",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard-Fallow",
+              "value": "2.4752",
               "column": "_:n11"
             }
           ]
@@ -2675,14 +2681,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.1924",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover-Fallow",
+              "value": "3.3478",
               "column": "_:n11"
             }
           ]
@@ -2698,21 +2704,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.1551",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Fallow",
+              "value": "3.2926",
               "column": "_:n11"
             }
           ]
@@ -2728,21 +2734,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.3237",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Fallow",
+              "value": "3.0449",
               "column": "_:n11"
             }
           ]
@@ -2765,14 +2771,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.1879",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Fallow",
+              "value": "3.1018",
               "column": "_:n11"
             }
           ]
@@ -2788,21 +2794,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0491",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Fallow",
+              "value": "3.364",
               "column": "_:n11"
             }
           ]
@@ -2818,21 +2824,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.3561",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover-Mustard",
+              "value": "2.861",
               "column": "_:n11"
             }
           ]
@@ -2855,14 +2861,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.5278",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Mustard",
+              "value": "2.8765",
               "column": "_:n11"
             }
           ]
@@ -2878,21 +2884,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.2875",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Mustard",
+              "value": "3.4514",
               "column": "_:n11"
             }
           ]
@@ -2908,21 +2914,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.3638",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Mustard",
+              "value": "2.5566",
               "column": "_:n11"
             }
           ]
@@ -2945,14 +2951,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.7972",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Mustard",
+              "value": "2.7756",
               "column": "_:n11"
             }
           ]
@@ -2968,21 +2974,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.6996",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Clover",
+              "value": "2.8406",
               "column": "_:n11"
             }
           ]
@@ -2998,21 +3004,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.6783",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Clover",
+              "value": "2.7041",
               "column": "_:n11"
             }
           ]
@@ -3035,14 +3041,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.9968",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Clover",
+              "value": "3.2727",
               "column": "_:n11"
             }
           ]
@@ -3058,21 +3064,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0638",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Clover",
+              "value": "3.3509",
               "column": "_:n11"
             }
           ]
@@ -3088,21 +3094,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.5454",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Oat",
+              "value": "2.3324",
               "column": "_:n11"
             }
           ]
@@ -3125,14 +3131,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.7266",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Oat",
+              "value": "3.0284",
               "column": "_:n11"
             }
           ]
@@ -3148,21 +3154,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.2547",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Oat",
+              "value": "3.1138",
               "column": "_:n11"
             }
           ]
@@ -3178,21 +3184,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.707",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Phacelia",
+              "value": "3.1546",
               "column": "_:n11"
             }
           ]
@@ -3215,14 +3221,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.119",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Phacelia",
+              "value": "3.6871",
               "column": "_:n11"
             }
           ]
@@ -3238,21 +3244,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "20-30 cm",
+              "value": "30-40 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0797",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Mix4",
+              "value": "3.4979",
               "column": "_:n11"
             }
           ]
@@ -3268,21 +3274,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.6859",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mustard-Fallow",
+              "value": "2.7519",
               "column": "_:n11"
             }
           ]
@@ -3298,21 +3304,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.8713",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover-Fallow",
+              "value": "3.3143",
               "column": "_:n11"
             }
           ]
@@ -3335,14 +3341,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.4482",
+              "value": "Mix4",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Fallow",
+              "value": "3.4382",
               "column": "_:n11"
             }
           ]
@@ -3358,21 +3364,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0169",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Fallow",
+              "value": "2.5874",
               "column": "_:n11"
             }
           ]
@@ -3388,21 +3394,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.0369",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Fallow",
+              "value": "3.2525",
               "column": "_:n11"
             }
           ]
@@ -3425,14 +3431,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.6091",
+              "value": "Mix12",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Fallow",
+              "value": "3.3276",
               "column": "_:n11"
             }
           ]
@@ -3448,21 +3454,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.9258",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Clover-Mustard",
+              "value": "2.7234",
               "column": "_:n11"
             }
           ]
@@ -3478,21 +3484,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.7346",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Mustard",
+              "value": "2.5825",
               "column": "_:n11"
             }
           ]
@@ -3515,14 +3521,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.1542",
+              "value": "Phacelia",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Mustard",
+              "value": "3.222",
               "column": "_:n11"
             }
           ]
@@ -3538,21 +3544,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.2783",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Mustard",
+              "value": "2.9512",
               "column": "_:n11"
             }
           ]
@@ -3568,21 +3574,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.8026",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Mustard",
+              "value": "2.9739",
               "column": "_:n11"
             }
           ]
@@ -3605,14 +3611,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.7278",
+              "value": "Clover",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Oat-Clover",
+              "value": "2.378",
               "column": "_:n11"
             }
           ]
@@ -3628,21 +3634,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.2771",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Clover",
+              "value": "2.5573",
               "column": "_:n11"
             }
           ]
@@ -3658,21 +3664,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.4048",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Clover",
+              "value": "3.4014",
               "column": "_:n11"
             }
           ]
@@ -3695,14 +3701,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.7715",
+              "value": "Oat",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Clover",
+              "value": "3.3181",
               "column": "_:n11"
             }
           ]
@@ -3718,21 +3724,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.2736",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Phacelia-Oat",
+              "value": "2.4117",
               "column": "_:n11"
             }
           ]
@@ -3748,21 +3754,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.4835",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Oat",
+              "value": "3.9948",
               "column": "_:n11"
             }
           ]
@@ -3785,14 +3791,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.9974",
+              "value": "Mustard",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Oat",
+              "value": "2.9542",
               "column": "_:n11"
             }
           ]
@@ -3808,21 +3814,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "0-10 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.4089",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix4-Phacelia",
+              "value": "2.3118",
               "column": "_:n11"
             }
           ]
@@ -3838,21 +3844,21 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "30-40 cm",
+              "value": "20-30 cm",
               "column": "_:n9"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.4394",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Phacelia",
+              "value": "2.8487",
               "column": "_:n11"
             }
           ]
@@ -3875,14 +3881,14 @@
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "0.6297",
+              "value": "Fallow",
               "column": "_:n10"
             },
             {
               "@type": [
                 "https://incubating.orkg.org/class/Cell"
               ],
-              "value": "Mix12-Mix4",
+              "value": "2.8481",
               "column": "_:n11"
             }
           ]
@@ -3890,9 +3896,6 @@
       ],
       "@id": "_:n12"
     }
-  ],
-  "P69031": [
-    "http://purl.obolibrary.org/obo/OBI_0000739"
   ],
   "@context": {
     "label": "http://www.w3.org/2000/01/rdf-schema#label",

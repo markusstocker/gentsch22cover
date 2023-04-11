@@ -9,7 +9,7 @@ pairwiseLetters <- function (x) {
   data.frame(.group = comp$Letters,
              cc_variant = names(comp$Letters))
 }
-df.MWD <- read.csv("df.MWD.csv", check.names=FALSE)
+df.MWD <- read.csv("https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv", check.names=FALSE)
 df.MWD$cc_variant <- factor(df.MWD$cc_variant, levels = c("Fallow", "Mustard","Clover", "Oat" , "Phacelia", "Mix4" , "Mix12"))
 pw.MWD <- function(x) {
   pairwiseTest(MWD_cor ~ cc_variant, data = x)

@@ -4,29 +4,32 @@
   "@type": [
     "https://incubating.orkg.org/class/C33000"
   ],
+  "P69029": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.3.png"
+  ],
   "P68001": [
     {
       "@id": "_:n2",
-      "label": "Structural Equation Model",
+      "label": "SEM for investigating the impact of parameters on aggregate OC distribution",
       "@type": [
         "https://incubating.orkg.org/class/C31006"
       ],
       "P68003": [
         {
           "@id": "_:n3",
-          "label": "Formula",
+          "label": "Formula for a SEM investigating the impact of parameters on aggregate OC distribution",
           "@type": [
             "https://incubating.orkg.org/class/C31004"
           ],
           "P4009": [
             {
               "@id": "_:n4",
-              "label": "Structure equation model (SEM) for investigating the impact of parameters on aggregate OC distribution",
+              "label": "Distribution =~ OC1 + OC4_2 + OC8_4 + OC16_8,\n              Soil_prop =~ BD + Clay + OC,\n              Distribution ~ cc_type.n + Soil_prop + MWD_cor,\n              OC1 ~~ OC8_4,\n              OC1 ~~ OC16_8,\n              OC1 ~~ OC4_2,\n              OC8_4~~OC4_2",
               "@type": [
                 "https://incubating.orkg.org/class/C31008"
               ],
               "P68004": [
-                "Distribution =~ OC1 + OC4_2 + OC8_4 + OC16_8,\n                      Soil_prop =~ BD + Clay + OC,\n                      Distribution ~ cc_type.n + Soil_prop + MWD_cor,\n                      OC1 ~~ OC8_4,\n                      OC1 ~~ OC16_8,\n                      OC1 ~~ OC4_2,\n                      OC8_4~~OC4_2,"
+                "Distribution =~ OC1 + OC4_2 + OC8_4 + OC16_8,\n                      Soil_prop =~ BD + Clay + OC,\n                      Distribution ~ cc_type.n + Soil_prop + MWD_cor,\n                      OC1 ~~ OC8_4,\n                      OC1 ~~ OC16_8,\n                      OC1 ~~ OC4_2,\n                      OC8_4~~OC4_2"
               ]
             }
           ]
@@ -34,9 +37,18 @@
       ]
     }
   ],
+  "P68000": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv"
+  ],
+  "P69030": [
+    "SEM investigating the impact of parameters on aggregate OC distribution. Latent variables (blue) are predicted by grey arrowed observed variables. Dashed lines indicate covariance variables. Numbers showing standardized estimates with pvalues as asterisk. All model parameters are shown in the R markdown file (supplementary material)."
+  ],
+  "HAS_IMPLEMENTATION": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure3.snippet.R"
+  ],
   "P68002": [
     {
-      "label": "Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution",
+      "label": "SEM investigating the impact of parameters on aggregate OC distribution",
       "@type": [
         "https://incubating.orkg.org/class/Table"
       ],
@@ -850,15 +862,6 @@
       ],
       "@id": "_:n8"
     }
-  ],
-  "P68000": [
-    "character"
-  ],
-  "P69029": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.3.png"
-  ],
-  "P69030": [
-    "Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution. Latent variables (blue) are predicted by grey arrowed observed variables. Dashed lines indicate covariance variables. Numbers showing standardized estimates with pvalues as asterisk. All model parameters are shown in the R markdown file (supplementary material)."
   ],
   "@context": {
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
