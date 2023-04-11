@@ -4,7 +4,7 @@
   "@type": [
     "https://incubating.orkg.org/class/C31007"
   ],
-  "HAS_IMPLEMENTATION": [
+  "P72000": [
     "https://github.com/markusstocker/gentsch22cover/blob/main/table1.snippet.R"
   ],
   "P68002": [
@@ -409,6 +409,7 @@
     "P68003": "https://incubating.orkg.org/property/P68003",
     "P68004": "https://incubating.orkg.org/property/P68004",
     "P4009": "https://incubating.orkg.org/property/P4009",
+    "P72000": "https://incubating.orkg.org/property/P72000",
     "columns": "https://incubating.orkg.org/property/CSVW_Columns",
     "name": "https://incubating.orkg.org/property/CSVW_Name",
     "number": "https://incubating.orkg.org/property/CSVW_Number",
