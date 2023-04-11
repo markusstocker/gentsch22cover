@@ -301,14 +301,21 @@ tab
 instance <- tp$model_fitting_3(
   label="Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution.", 
   
-  #has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv",
+  has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv",
   
   has_input_model=tp$statistical_model(
-    label="Structural Equation Model",
+    label="SEM for investigating the impact of parameters on aggregate OC distribution",
     is_denoted_by=tp$formula(
-      label="Formula",
+      label="Formula for a SEM investigating the impact of parameters on aggregate OC distribution",
       has_value_specification=tp$value_specification(
-        label="Structure equation model (SEM) for investigating the impact of parameters on aggregate OC distribution",
+        label=
+              "Distribution =~ OC1 + OC4_2 + OC8_4 + OC16_8,
+              Soil_prop =~ BD + Clay + OC,
+              Distribution ~ cc_type.n + Soil_prop + MWD_cor,
+              OC1 ~~ OC8_4,
+              OC1 ~~ OC16_8,
+              OC1 ~~ OC4_2,
+              OC8_4~~OC4_2",
         
         # Provisional String for formula/model
         has_specified_value=
@@ -318,14 +325,16 @@ instance <- tp$model_fitting_3(
                       OC1 ~~ OC8_4,
                       OC1 ~~ OC16_8,
                       OC1 ~~ OC4_2,
-                      OC8_4~~OC4_2,"
+                      OC8_4~~OC4_2"
       )
     )
   ),
-  has_output_dataset=tuple(tab, "Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution"),
-  has_output_statement="Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution. Latent variables (blue) are predicted by grey arrowed observed variables. Dashed lines indicate covariance variables. Numbers showing standardized estimates with pvalues as asterisk. All model parameters are shown in the R markdown file (supplementary material).",
+  has_output_dataset=tuple(tab, "SEM investigating the impact of parameters on aggregate OC distribution"),
+  has_output_statement="SEM investigating the impact of parameters on aggregate OC distribution. Latent variables (blue) are predicted by grey arrowed observed variables. Dashed lines indicate covariance variables. Numbers showing standardized estimates with pvalues as asterisk. All model parameters are shown in the R markdown file (supplementary material).",
   
   # Figure PNG
-  has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.3.png"
+  has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.3.png",
+  has_implementation="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure3.snippet.R",
+
 )
 instance$serialize_to_file("article.contribution.6.json", format="json-ld")

@@ -4,6 +4,9 @@
   "@type": [
     "https://incubating.orkg.org/class/C31007"
   ],
+  "HAS_IMPLEMENTATION": [
+    "character"
+  ],
   "P68002": [
     {
       "label": "Results of LMM with MWD as response and CC variant as predictor variable",

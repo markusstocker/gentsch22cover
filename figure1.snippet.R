@@ -7,7 +7,7 @@ coord_radar <- function (theta = "x", start = 0, direction = 1, clip = "off") {
           direction = sign(direction),clip = clip,
           is_linear = function(coord) TRUE)
 }
-df.radar <- read.csv("df.radar.csv")
+df.radar <- read.csv("https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.radar.csv")
 df.radar$Fraction <- factor(df.radar$Fraction, levels=c("<1","2-1","4-2","8-4","16-8", "bulk"))
 df.radar.m <- df.radar %>% 
   filter(cc_variant !="Fallow") %>%

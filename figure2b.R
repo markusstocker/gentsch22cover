@@ -198,10 +198,10 @@ instance <- tp$model_fitting_3(
   has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2b.png",
   
   has_output_statement= "A comprehensive data evaluation in LMMs indicated, the MWD increased with soil 
-  depth and was significantly higher in CC treatments than the fallow."
+  depth and was significantly higher in CC treatments than the fallow.",
   
   # R snippets currently disabled
-  #has_code_snippet="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2b.snippet.R"
+  has_implementation="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2b.snippet.R"
   
 )
 instance$serialize_to_file("article.contribution.5.json", format="json-ld")

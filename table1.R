@@ -16,6 +16,10 @@ tp = orkg$templates$list_templates()
 
 df.20 <- read.csv("CATCHY_aggregate_stability_2020_block2.csv", check.names=FALSE)
 
+# Save ORKG Input Dataset
+df.Input <- subset(df.20, Fraction=="bulk")
+write.csv(df.Input, "table1.csv")
+
 for(i in c(3:9, 11:18)) {
   df.20[,i] <- as.factor(df.20[,i])
 }
@@ -40,7 +44,7 @@ df2 <- data.frame(summary(lm.mwd.2)$coefficients, check.names=FALSE)
 instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable", 
   has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
-  #has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
+  #has_input_dataset=tuple(df.MWD, "Soil data (OC, TN, bulk density, texture) as well as data from soil aggregate fractionation and evaluation of their aggregate stability."),
   has_input_model=tp$statistical_model(
     label="A linear mixed model with MWD as response and CC variant as predictor variable",
     is_denoted_by=tp$formula(
@@ -58,7 +62,8 @@ instance$serialize_to_file("article.contribution.1.json", format="json-ld")
 instance <- tp$model_fitting(
   label="Linear mixed model fitting with MWD as response, CC type as predictor variable, and soil depth as random variable", 
   has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
-  #has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
+  has_implementation="https://github.com/markusstocker/gentsch22cover/blob/main/table1.snippet.R",
+  #has_input_dataset=tuple(df.Input, "Soil data (OC, TN, bulk density, texture) as well as data from soil aggregate fractionation and evaluation of their aggregate stability."),
   has_input_model=tp$statistical_model(
     label="A linear mixed model with MWD as response and CC type as predictor variable",
     is_denoted_by=tp$formula(

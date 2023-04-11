@@ -4,6 +4,9 @@
   "@type": [
     "https://incubating.orkg.org/class/C33000"
   ],
+  "P69029": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2b.png"
+  ],
   "P68001": [
     {
       "@id": "_:n2",
@@ -33,6 +36,15 @@
         }
       ]
     }
+  ],
+  "P68000": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv"
+  ],
+  "P69030": [
+    "A comprehensive data evaluation in LMMs indicated, the MWD increased with soil \n  depth and was significantly higher in CC treatments than the fallow."
+  ],
+  "HAS_IMPLEMENTATION": [
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2b.snippet.R"
   ],
   "P68002": [
     {
@@ -276,15 +288,6 @@
       ],
       "@id": "_:n12"
     }
-  ],
-  "P68000": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv"
-  ],
-  "P69029": [
-    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2b.png"
-  ],
-  "P69030": [
-    "A comprehensive data evaluation in LMMs indicated, the MWD increased with soil \n  depth and was significantly higher in CC treatments than the fallow."
   ],
   "@context": {
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
