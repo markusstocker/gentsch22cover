@@ -24,9 +24,9 @@ df.frac <- subset(df.20, Fraction!="bulk")
 df.MWD <- merge(df.MWD, spread(df.frac[, c("Plot","cc_variant","cc_type", "depth","Fraction", "OC_Frac_pc")], Fraction , OC_Frac_pc), 
                 by=c("Plot","cc_variant","cc_type", "depth"))
 
-#library(lavaan)
+library(lavaan)
 library(tidySEM)
-library(ggbiplot)
+#library(ggbiplot)
 
 df.sem <- df.MWD
 df.sem <- rename(df.sem, c("OC1"="<1", "OC2_1" ="2-1", "OC4_2"="4-2", "OC8_4"="8-4","OC16_8"="16-8"))
