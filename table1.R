@@ -47,7 +47,7 @@ instance <- tp$model_fitting(
   has_implementation="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/table1.snippet.1.R",
   #has_input_dataset=tuple(df.MWD, "Soil data (OC, TN, bulk density, texture) as well as data from soil aggregate fractionation and evaluation of their aggregate stability."),
   has_input_model=tp$statistical_model(
-    label="A linear mixed model (LMM) with MWD as response and cover crops (CC) variant as predictor variable",
+    label="A linear mixed model (LMM) with mean weight diameter MWD as response and cover crops (CC) variant as predictor variable",
     is_denoted_by=tp$formula(
       label="The formula of the linear mixed model with MWD as response and CC variant as predictor variable",
       has_value_specification=tp$value_specification(
