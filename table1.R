@@ -42,12 +42,12 @@ df1 <- data.frame(summary(lm.mwd.1)$coefficients, check.names=FALSE)
 df2 <- data.frame(summary(lm.mwd.2)$coefficients, check.names=FALSE)
 
 instance <- tp$model_fitting(
-  label="Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable", 
-  has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
+  label="LMM fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable", 
+  has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv",
   has_implementation="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/table1.snippet.1.R",
   #has_input_dataset=tuple(df.MWD, "Soil data (OC, TN, bulk density, texture) as well as data from soil aggregate fractionation and evaluation of their aggregate stability."),
   has_input_model=tp$statistical_model(
-    label="A linear mixed model with MWD as response and CC variant as predictor variable",
+    label="A linear mixed model (LMM) with MWD as response and cover crops (CC) variant as predictor variable",
     is_denoted_by=tp$formula(
       label="The formula of the linear mixed model with MWD as response and CC variant as predictor variable",
       has_value_specification=tp$value_specification(
@@ -61,12 +61,12 @@ instance <- tp$model_fitting(
 instance$serialize_to_file("article.contribution.1.json", format="json-ld")
 
 instance <- tp$model_fitting(
-  label="Linear mixed model fitting with MWD as response, CC type as predictor variable, and soil depth as random variable", 
-  has_input_dataset="https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv",
+  label="LMM fitting with MWD as response, CC type as predictor variable, and soil depth as random variable", 
+  has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv",
   has_implementation="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/table1.snippet.2.R",
   #has_input_dataset=tuple(df.Input, "Soil data (OC, TN, bulk density, texture) as well as data from soil aggregate fractionation and evaluation of their aggregate stability."),
   has_input_model=tp$statistical_model(
-    label="A linear mixed model with MWD as response and CC type as predictor variable",
+    label="A linear mixed model (LMM) with mean weight diameter (MWD) as response and cover crop (CC) type as predictor variable",
     is_denoted_by=tp$formula(
       label="The formula of the linear mixed model with MWD as response and CC type as predictor variable",
       has_value_specification=tp$value_specification(

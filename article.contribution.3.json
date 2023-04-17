@@ -6,7 +6,7 @@
   ],
   "P68002": [
     {
-      "label": "Relative proportion of OC in different soil fractions in percentage of fallow level",
+      "label": "Relative proportion of organic carbon (OC) in different soil fractions in percentage of fallow level",
       "@type": [
         "https://incubating.orkg.org/class/Table"
       ],
@@ -5935,7 +5935,7 @@
     "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure1.snippet.R"
   ],
   "P69030": [
-    "The variability of OC distribution within aggregates was quite large between and within CC treatments."
+    "The variability of OC distribution within aggregates was quite large between and within cover crop (CC) treatments."
   ],
   "P69029": [
     "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.1.png"

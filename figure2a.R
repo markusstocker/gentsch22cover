@@ -100,9 +100,9 @@ ggsave("Fig.2a.png", plot = p1, width = 160, height = 100, units = "mm")
 instance <- tp$pairwise_test(
   label="Pairwise t-test with MWD response and CC variant predictor", 
   method="http://purl.obolibrary.org/obo/OBI_0000739",
-  has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter between the dry and wet sieving method"),
+  has_input_dataset=tuple(df.MWD, "Difference of mean weight diameter (MWD) between the dry and wet sieving method"),
   has_implementation="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure2a.snippet.R",
-  has_output_dataset=tuple(df.pw.MWD.pvalues, "Pairwise t-test p-values for CC variants at three soil depths"),
+  has_output_dataset=tuple(df.pw.MWD.pvalues, "Pairwise t-test p-values for cover crops (CC) variants at three soil depths"),
   has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.2a.png",
   has_input_model=tp$statistical_model(
      label="A pairwise t-test with MWD response and CC variant predictor",
