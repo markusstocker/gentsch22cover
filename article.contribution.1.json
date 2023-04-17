@@ -374,7 +374,7 @@
   "P68001": [
     {
       "@id": "_:n8",
-      "label": "A linear mixed model (LMM) with mean weight diameter MWD as response and cover crops (CC) variant as predictor variable",
+      "label": "A linear mixed model (LMM) with mean weight diameter (MWD) as response and cover crops (CC) variant as predictor variable",
       "@type": [
         "https://incubating.orkg.org/class/C31006"
       ],
