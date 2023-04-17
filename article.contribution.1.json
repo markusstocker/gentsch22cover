@@ -1,6 +1,6 @@
 {
   "@id": "_:n1",
-  "label": "Linear mixed model fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable",
+  "label": "LMM fitting with MWD as response, CC variant as predictor variable, and soil depth as random variable",
   "@type": [
     "https://incubating.orkg.org/class/C31007"
   ],
@@ -369,12 +369,12 @@
     }
   ],
   "P68000": [
-    "https://github.com/markusstocker/gentsch22cover/blob/main/df.MWD.csv"
+    "https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv"
   ],
   "P68001": [
     {
       "@id": "_:n8",
-      "label": "A linear mixed model with MWD as response and CC variant as predictor variable",
+      "label": "A linear mixed model (LMM) with MWD as response and cover crops (CC) variant as predictor variable",
       "@type": [
         "https://incubating.orkg.org/class/C31006"
       ],

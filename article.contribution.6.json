@@ -1,6 +1,6 @@
 {
   "@id": "_:n1",
-  "label": "Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution.",
+  "label": "SEM investigating the impact of parameters on aggregate OC distribution.",
   "@type": [
     "https://incubating.orkg.org/class/C33000"
   ],
@@ -836,7 +836,7 @@
   "P68001": [
     {
       "@id": "_:n6",
-      "label": "SEM for investigating the impact of parameters on aggregate OC distribution",
+      "label": "Structure equation model (SEM) for investigating the impact of parameters on aggregate organic carbon (OC) distribution",
       "@type": [
         "https://incubating.orkg.org/class/C31006"
       ],

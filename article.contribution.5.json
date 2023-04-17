@@ -1,6 +1,6 @@
 {
   "@id": "_:n1",
-  "label": "Overall effects of CC from a LMM (linear mixed effect model)",
+  "label": "Overall effects of CC from a LMM",
   "@type": [
     "https://incubating.orkg.org/class/C33000"
   ],
@@ -262,7 +262,7 @@
   "P68001": [
     {
       "@id": "_:n10",
-      "label": "A linear mixed model with MWD as response and CC type as predictor variable",
+      "label": "A linear mixed model (LMM) with mean weight diameter (MWD) as response and cover crop (CC) type as predictor variable",
       "@type": [
         "https://incubating.orkg.org/class/C31006"
       ],

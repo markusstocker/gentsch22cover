@@ -174,12 +174,12 @@ class(df.pw.MWD.tot) <- "data.frame"
 
 # Provisional template (model_fitting_3) to allow for the addition of an output figure.
 instance <- tp$model_fitting_3(
-  label="Overall effects of CC from a LMM (linear mixed effect model)", 
+  label="Overall effects of CC from a LMM", 
   
   has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.MWD.csv",
   
   has_input_model=tp$statistical_model(
-    label="A linear mixed model with MWD as response and CC type as predictor variable",
+    label="A linear mixed model (LMM) with mean weight diameter (MWD) as response and cover crop (CC) type as predictor variable",
     is_denoted_by=tp$formula(
       label="The formula of the linear mixed model with MWD as response and CC type as predictor variable",
       

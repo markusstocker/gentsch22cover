@@ -121,9 +121,9 @@ ggsave("Fig.1.png", width=160, height = 110,dpi = 500, units = "mm")
 instance <- tp$descriptive_statistical_calculation(
   label="Descriptive statistical calculation for relative proportion of OC in different soil fractions in percentage of fallow level", 
   has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/df.radar.csv",
-  has_output_dataset=tuple(as.data.frame(df.radar.m), "Relative proportion of OC in different soil fractions in percentage of fallow level"),
+  has_output_dataset=tuple(as.data.frame(df.radar.m), "Relative proportion of organic carbon (OC) in different soil fractions in percentage of fallow level"),
   has_output_figure="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/Fig.1.png",
-  has_output_statement="The variability of OC distribution within aggregates was quite large between and within CC treatments.",
+  has_output_statement="The variability of OC distribution within aggregates was quite large between and within cover crop (CC) treatments.",
   has_implementation="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/figure1.snippet.R"
 )
 instance$serialize_to_file("article.contribution.3.json", format="json-ld")

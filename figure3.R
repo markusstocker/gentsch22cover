@@ -299,12 +299,12 @@ tab
 
 # Provisional template (model_fitting_3) to allow for the addition of an output figure.
 instance <- tp$model_fitting_3(
-  label="Structure equation model (SEM) investigating the impact of parameters on aggregate OC distribution.", 
+  label="SEM investigating the impact of parameters on aggregate OC distribution.", 
   
   has_input_dataset="https://raw.githubusercontent.com/markusstocker/gentsch22cover/main/CATCHY_aggregate_stability_2020_block2.csv",
   
   has_input_model=tp$statistical_model(
-    label="SEM for investigating the impact of parameters on aggregate OC distribution",
+    label="Structure equation model (SEM) for investigating the impact of parameters on aggregate organic carbon (OC) distribution",
     is_denoted_by=tp$formula(
       label="Formula for a SEM investigating the impact of parameters on aggregate OC distribution",
       has_value_specification=tp$value_specification(
